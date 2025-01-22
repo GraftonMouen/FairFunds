@@ -1,0 +1,41 @@
+<!-- profile.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add necessary meta tags, styles, and title -->
+</head>
+<body>
+    <div class="navbar">
+    
+        <a href="index.html">Log in</a>
+        <a href="createGame.html">Create Game</a>
+        <a href="gameList.html">Matchplay</a>
+        <a href="vault.html">Vault</a>
+        <a href="profile.html">Profile</a>
+        <a href="signup.html">Sign Up</a>
+    </div>
+
+    <h1>Welcome to Your Profile</h1>
+    
+    <div class="profile-container">
+        <img src="<%= user.profilePicture %>" alt="Profile Picture">
+        <p>Name: <%= user.fullname %></p>
+        <p>Handicap: <%= user.handicap %></p>
+        <p>Wins: <%= user.winCount %></p>
+        <p>Losses: <%= user.lossCount %></p>
+        <p>Hometown: <%= user.homeTown %></p>
+        <p>Profit: <%= user.profitNumber %></p>
+
+        <!-- Form to upload a new profile picture -->
+        <form action="/upload-profile-picture" method="post" enctype="multipart/form-data">
+            <label for="profilePicture">Upload Profile Picture:</label>
+            <input type="file" id="profilePicture" name="profilePicture" accept="image/*">
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+</html>

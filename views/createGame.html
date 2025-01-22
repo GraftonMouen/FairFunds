@@ -1,0 +1,2236 @@
+<!-- createGame.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Create Game</title>
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <div class="navbar">
+    <a href="index.html">Log in</a>
+    <a href="createGame.html">Create Game</a>
+    <a href="gameList.html">Matchplay</a>
+    <a href="vault.html">Vault</a>
+    <a href="profile.html">Profile</a>
+    <a href="signup.html">Sign Up</a>
+  </div>
+
+  <h1 class="title">Create a Game</h1>
+  <div class="create-game-container">
+    <form action="/create-game" method="post">
+      <!-- Your form content goes here -->
+      <label for="name">Game Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="description">Information:</label>
+      <textarea id="description" name="description" required></textarea>
+
+      <label for="golfCourse">Golf Course:</label>
+      <select id="golfCourse" name="golfCourse" required>
+        <option value="tranquillo">Tranquillo Golf Club and Spa</option>
+        <!-- Add more options as needed -->
+        <option value=" Highlands Ridge - The Preserve"> Highlands Ridge - The Preserve</option>
+            
+                <option value=" Highlands Ridge Country Club"> Highlands Ridge Country Club</option>
+            
+                <option value=" The Club at Olde Cypress "> The Club at Olde Cypress </option>
+            
+                <option value="76 Golf World">76 Golf World</option>
+            
+                <option value="761 Golf">761 Golf</option>
+            
+                <option value="A. C. Read Golf Course">A. C. Read Golf Course</option>
+            
+                <option value="Abacoa Golf Club">Abacoa Golf Club</option>
+            
+                <option value="Abbey Course At St. Leo University">Abbey Course At St. Leo University</option>
+            
+                <option value="Aberdeen Golf & Country Club">Aberdeen Golf & Country Club</option>
+            
+                <option value="Addison Reserve">Addison Reserve</option>
+            
+                <option value="Adena Golf and Country Club">Adena Golf and Country Club</option>
+            
+                <option value="Adios Golf Club">Adios Golf Club</option>
+            
+                <option value="Admiral Lehigh Golf & Resort">Admiral Lehigh Golf & Resort</option>
+            
+                <option value="Admirals Cove Golf Course">Admirals Cove Golf Course</option>
+            
+                <option value="Admirals Cove Golf Village">Admirals Cove Golf Village</option>
+            
+                <option value="Airco Golf Course">Airco Golf Course</option>
+            
+                <option value="Alaqua Country Club">Alaqua Country Club</option>
+            
+                <option value="Alden Pines Country Club">Alden Pines Country Club</option>
+            
+                <option value="Amelia National Golf & Country Club">Amelia National Golf & Country Club</option>
+            
+                <option value="Amelia River Club">Amelia River Club</option>
+            
+                <option value="American Golfers Club">American Golfers Club</option>
+            
+                <option value="Anglers Green">Anglers Green</option>
+            
+                <option value="Apollo Beach Golf & Sea Club">Apollo Beach Golf & Sea Club</option>
+            
+                <option value="Aquarina Country Club">Aquarina Country Club</option>
+            
+                <option value="Arcadia Municipal Golf Course">Arcadia Municipal Golf Course</option>
+            
+                <option value="Arlington Ridge Golf Course">Arlington Ridge Golf Course</option>
+            
+                <option value="Arnold Palmer Legends Country Club">Arnold Palmer Legends Country Club</option>
+            
+                <option value="Arnold Palmer's Bay Hill Club & Lodge">Arnold Palmer's Bay Hill Club & Lodge</option>
+            
+                <option value="Arrowhead Golf Course">Arrowhead Golf Course</option>
+            
+                <option value="Atlantic National Golf Club">Atlantic National Golf Club</option>
+            
+                <option value="Atlantis Country Club & Inn">Atlantis Country Club & Inn</option>
+            
+                <option value="Atlantis Golf Club">Atlantis Golf Club</option>
+            
+                <option value="Audubon Country Club">Audubon Country Club</option>
+            
+                <option value="Avila Golf & Country Club">Avila Golf & Country Club</option>
+            
+                <option value="Babe Zaharias Golf Course">Babe Zaharias Golf Course</option>
+            
+                <option value="Ballantrae Golf & Yacht Club">Ballantrae Golf & Yacht Club</option>
+            
+                <option value="BallenIsles Country Club">BallenIsles Country Club</option>
+            
+                <option value="Banyan Golf Course">Banyan Golf Course</option>
+            
+                <option value="Bardmoor Golf & Tennis Club">Bardmoor Golf & Tennis Club</option>
+            
+                <option value="Barefoot Bay Golf & Recreation Park">Barefoot Bay Golf & Recreation Park</option>
+            
+                <option value="Bartow Golf Course">Bartow Golf Course</option>
+            
+                <option value="Baseline Golf Course">Baseline Golf Course</option>
+            
+                <option value="Bay Beach Golf Course">Bay Beach Golf Course</option>
+            
+                <option value="Bay Colony Golf Club">Bay Colony Golf Club</option>
+            
+                <option value="Bay Dunes Golf Course">Bay Dunes Golf Course</option>
+            
+                <option value="Bay Palms Golf Complex">Bay Palms Golf Complex</option>
+            
+                <option value="Bay Point Resort">Bay Point Resort</option>
+            
+                <option value="Bay Pointe Golf Course">Bay Pointe Golf Course</option>
+            
+                <option value="Baymeadows Golf Club">Baymeadows Golf Club</option>
+            
+                <option value="Bayou Club">Bayou Club</option>
+            
+                <option value="Bayshore Municipal Golf Course">Bayshore Municipal Golf Course</option>
+            
+                <option value="Baytree Golf Club">Baytree Golf Club</option>
+            
+                <option value="Baytree Golf Course">Baytree Golf Course</option>
+            
+                <option value="Baytree National Golf Links">Baytree National Golf Links</option>
+            
+                <option value="Beach Par 3 Golf Course">Beach Par 3 Golf Course</option>
+            
+                <option value="Beacon Woods Golf Club">Beacon Woods Golf Club</option>
+            
+                <option value="Bear Lakes Country Club">Bear Lakes Country Club</option>
+            
+                <option value="Bears Paw Country Club">Bears Paw Country Club</option>
+            
+                <option value="Bella Collina">Bella Collina</option>
+            
+                <option value="Belle Glade Golf & Country Club">Belle Glade Golf & Country Club</option>
+            
+                <option value="Belleair Country Club">Belleair Country Club</option>
+            
+                <option value="Belleair Country Club">Belleair Country Club</option>
+            
+                <option value="Bent Creek Golf Course">Bent Creek Golf Course</option>
+            
+                <option value="Bent Pine Golf Club">Bent Pine Golf Club</option>
+            
+                <option value="Bent Tree Country Club">Bent Tree Country Club</option>
+            
+                <option value="Bentley Village Golf Club">Bentley Village Golf Club</option>
+            
+                <option value="Big Cypress Golf & Country Club">Big Cypress Golf & Country Club</option>
+            
+                <option value="Bird Bay Executive Golf Course">Bird Bay Executive Golf Course</option>
+            
+                <option value="Black Bear Golf Club">Black Bear Golf Club</option>
+            
+                <option value="Black Diamond Ranch Golf & Country Club">Black Diamond Ranch Golf & Country Club</option>
+            
+                <option value="Bloomingdale Golfers Club">Bloomingdale Golfers Club</option>
+            
+                <option value="Blue Cypress Golf & RV Resort">Blue Cypress Golf & RV Resort</option>
+            
+                <option value="Blue Heron Golf & Country Club">Blue Heron Golf & Country Club</option>
+            
+                <option value="Blue Heron Pines">Blue Heron Pines</option>
+            
+                <option value="Blue Sky Golf Club ">Blue Sky Golf Club </option>
+            
+                <option value="Bluewater Bay Resort">Bluewater Bay Resort</option>
+            
+                <option value="Bobby Jones Golf Club">Bobby Jones Golf Club</option>
+            
+                <option value="Boca Del Mar Country Club">Boca Del Mar Country Club</option>
+            
+                <option value="Boca Delray Golf & Country Club">Boca Delray Golf & Country Club</option>
+            
+                <option value="Boca Dunes Golf & Country Club">Boca Dunes Golf & Country Club</option>
+            
+                <option value="Boca Greens Country Club">Boca Greens Country Club</option>
+            
+                <option value="Boca Grove">Boca Grove</option>
+            
+                <option value="Boca Lago Golf Course">Boca Lago Golf Course</option>
+            
+                <option value="Boca Pointe Country Club">Boca Pointe Country Club</option>
+            
+                <option value="Boca Raton Executive Country Club">Boca Raton Executive Country Club</option>
+            
+                <option value="Boca Raton Golf and Racquet Club">Boca Raton Golf and Racquet Club</option>
+            
+                <option value="Boca Raton Resort & Club">Boca Raton Resort & Club</option>
+            
+                <option value="Boca Rio Golf Club">Boca Rio Golf Club</option>
+            
+                <option value="Boca Royale Golf & Country Club">Boca Royale Golf & Country Club</option>
+            
+                <option value="Boca Teeca Country Club">Boca Teeca Country Club</option>
+            
+                <option value="Boca West Country Club">Boca West Country Club</option>
+            
+                <option value="Bocaire Country Club">Bocaire Country Club</option>
+            
+                <option value="Boggy Creek Golf Club">Boggy Creek Golf Club</option>
+            
+                <option value="Bonaventure Golf Club">Bonaventure Golf Club</option>
+            
+                <option value="Bonifay Country Club">Bonifay Country Club</option>
+            
+                <option value="Bonita Bay Club">Bonita Bay Club</option>
+            
+                <option value="Bonita Fairways">Bonita Fairways</option>
+            
+                <option value="Bonita Springs Golf Club">Bonita Springs Golf Club</option>
+            
+                <option value="Boyne South Golf Course">Boyne South Golf Course</option>
+            
+                <option value="Boynton Beach Municipal Golf Course">Boynton Beach Municipal Golf Course</option>
+            
+                <option value="Bradenton Country Club">Bradenton Country Club</option>
+            
+                <option value="Briar Bay Golf Course">Briar Bay Golf Course</option>
+            
+                <option value="Broken Sound Club">Broken Sound Club</option>
+            
+                <option value="Broken Woods Country Club">Broken Woods Country Club</option>
+            
+                <option value="Brookridge Country Club Golf Association">Brookridge Country Club Golf Association</option>
+            
+                <option value="Brooksville Golf & Country Club">Brooksville Golf & Country Club</option>
+            
+                <option value="Buckhorn Springs Golf & Country Club">Buckhorn Springs Golf & Country Club</option>
+            
+                <option value="Buffalo Creek Golf Course">Buffalo Creek Golf Course</option>
+            
+                <option value="Bull Run Country Club">Bull Run Country Club</option>
+            
+                <option value="Burnt Store Marina & Country Club">Burnt Store Marina & Country Club</option>
+            
+                <option value="California Golf Club">California Golf Club</option>
+            
+                <option value="Caloosa Golf & Country Club">Caloosa Golf & Country Club</option>
+            
+                <option value="Calusa Country Club">Calusa Country Club</option>
+            
+                <option value="Calusa Lakes Golf Club">Calusa Lakes Golf Club</option>
+            
+                <option value="Calusa Pines Golf Club">Calusa Pines Golf Club</option>
+            
+                <option value="Camp Creek Golf Club">Camp Creek Golf Club</option>
+            
+                <option value="Cape Coral Golf & Tennis Resort">Cape Coral Golf & Tennis Resort</option>
+            
+                <option value="Cape Royal Golf Club">Cape Royal Golf Club</option>
+            
+                <option value="Capital City Country Club">Capital City Country Club</option>
+            
+                <option value="Capri Isles Golf Club">Capri Isles Golf Club</option>
+            
+                <option value="Card Sound Golf Club">Card Sound Golf Club</option>
+            
+                <option value="Carefree RV Country Club">Carefree RV Country Club</option>
+            
+                <option value="Carolina Golf Club">Carolina Golf Club</option>
+            
+                <option value="Carrollwood Country Club">Carrollwood Country Club</option>
+            
+                <option value="Casselberry Golf Club">Casselberry Golf Club</option>
+            
+                <option value="Cattail Creek Golf Club">Cattail Creek Golf Club</option>
+            
+                <option value="Celebration Golf Club">Celebration Golf Club</option>
+            
+                <option value="Champion Golf Course">Champion Golf Course</option>
+            
+                <option value="Champions Club at Summerfield">Champions Club at Summerfield</option>
+            
+                <option value="Charlotte Harbor National Golf Club">Charlotte Harbor National Golf Club</option>
+            
+                <option value="Cheeca Lodge">Cheeca Lodge</option>
+            
+                <option value="Cheval Golf and Country Club">Cheval Golf and Country Club</option>
+            
+                <option value="Chi Chi Rodriguez Golf Club">Chi Chi Rodriguez Golf Club</option>
+            
+                <option value="Chiefland Golf & Country Club">Chiefland Golf & Country Club</option>
+            
+                <option value="Chip Shot Par 3 Golf Course">Chip Shot Par 3 Golf Course</option>
+            
+                <option value="Cimarrone Golf & Country Club">Cimarrone Golf & Country Club</option>
+            
+                <option value="Citrus Farms Cabot 21">Citrus Farms Cabot 21</option>
+            
+                <option value="Citrus Farms Cabot Barrens">Citrus Farms Cabot Barrens</option>
+            
+                <option value="Citrus Farms Cabot Oaks">Citrus Farms Cabot Oaks</option>
+            
+                <option value="Citrus Hills Golf & Country Club">Citrus Hills Golf & Country Club</option>
+            
+                <option value="Citrus National Golf Club">Citrus National Golf Club</option>
+            
+                <option value="Citrus Springs Golf & Country Club">Citrus Springs Golf & Country Club</option>
+            
+                <option value="Clearwater Country Club">Clearwater Country Club</option>
+            
+                <option value="Clearwater Golf Park">Clearwater Golf Park</option>
+            
+                <option value="Clerbrook Golf Club">Clerbrook Golf Club</option>
+            
+                <option value="Cleveland Heights Golf & Country Club">Cleveland Heights Golf & Country Club</option>
+            
+                <option value="Clewiston Golf Course">Clewiston Golf Course</option>
+            
+                <option value="Cocoa Beach Country Club">Cocoa Beach Country Club</option>
+            
+                <option value="Colliers Reserve Country Club">Colliers Reserve Country Club</option>
+            
+                <option value="Colonial Country Club">Colonial Country Club</option>
+            
+                <option value="Colony West Country Club">Colony West Country Club</option>
+            
+                <option value="Continental Country Club">Continental Country Club</option>
+            
+                <option value="Cooper Colony Country Club">Cooper Colony Country Club</option>
+            
+                <option value="Coral Creek Club">Coral Creek Club</option>
+            
+                <option value="Coral Oaks Golf Course">Coral Oaks Golf Course</option>
+            
+                <option value="Coral Ridge Country Club">Coral Ridge Country Club</option>
+            
+                <option value="Costa Greens Golf Club">Costa Greens Golf Club</option>
+            
+                <option value="Country Club of Coral Springs">Country Club of Coral Springs</option>
+            
+                <option value="Country Club of Florida">Country Club of Florida</option>
+            
+                <option value="Country Club of Lady Lake">Country Club of Lady Lake</option>
+            
+                <option value="Country Club of Naples">Country Club of Naples</option>
+            
+                <option value="Country Club of Ocala">Country Club of Ocala</option>
+            
+                <option value="Country Club of Orange Park">Country Club of Orange Park</option>
+            
+                <option value="Country Club of Orlando">Country Club of Orlando</option>
+            
+                <option value="Country Club of Sebring">Country Club of Sebring</option>
+            
+                <option value="Country Club of Silver Springs Shores">Country Club of Silver Springs Shores</option>
+            
+                <option value="Country Meadows">Country Meadows</option>
+            
+                <option value="Countryside Country Club">Countryside Country Club</option>
+            
+                <option value="Countryside Executive Golf Course">Countryside Executive Golf Course</option>
+            
+                <option value="Countryside Golf Club">Countryside Golf Club</option>
+            
+                <option value="Countryway Golf Club">Countryway Golf Club</option>
+            
+                <option value="Cove Cay Golf Club">Cove Cay Golf Club</option>
+            
+                <option value="Crandon Golf at Key Biscayne">Crandon Golf at Key Biscayne</option>
+            
+                <option value="Crane Creek Preserve Golf Club">Crane Creek Preserve Golf Club</option>
+            
+                <option value="Creekside Golf Club">Creekside Golf Club</option>
+            
+                <option value="Crescent Oak Golf Course">Crescent Oak Golf Course</option>
+            
+                <option value="Cross Creek Country Club">Cross Creek Country Club</option>
+            
+                <option value="Crown Colony Golf & Country Club">Crown Colony Golf & Country Club</option>
+            
+                <option value="Crystal Lake Club">Crystal Lake Club</option>
+            
+                <option value="Crystal Lake Country Club">Crystal Lake Country Club</option>
+            
+                <option value="Crystalbrook Golf Course">Crystalbrook Golf Course</option>
+            
+                <option value="Cypress Creek Country Club">Cypress Creek Country Club</option>
+            
+                <option value="Cypress Creek Country Club">Cypress Creek Country Club</option>
+            
+                <option value="Cypress Green Golf Course">Cypress Green Golf Course</option>
+            
+                <option value="Cypress Greens Golf & Tennis Community">Cypress Greens Golf & Tennis Community</option>
+            
+                <option value="Cypress Head Golf Club">Cypress Head Golf Club</option>
+            
+                <option value="Cypress Knoll Golf & Country Club">Cypress Knoll Golf & Country Club</option>
+            
+                <option value="Cypress Lake Country Club">Cypress Lake Country Club</option>
+            
+                <option value="Cypress Lakes Homeowners Golf Course">Cypress Lakes Homeowners Golf Course</option>
+            
+                <option value="Cypress Point Golf & RV Retreat">Cypress Point Golf & RV Retreat</option>
+            
+                <option value="Cypress Run Golf Club">Cypress Run Golf Club</option>
+            
+                <option value="Cypress Woods Golf & Country Club">Cypress Woods Golf & Country Club</option>
+            
+                <option value="Cypresswood Golf & Country Club">Cypresswood Golf & Country Club</option>
+            
+                <option value="Davie Golf Club">Davie Golf Club</option>
+            
+                <option value="Daytona Beach Golf course">Daytona Beach Golf course</option>
+            
+                <option value="De Funiak Springs Country Club">De Funiak Springs Country Club</option>
+            
+                <option value="DeBary Golf & Country Club">DeBary Golf & Country Club</option>
+            
+                <option value="Deep Creek Golf Club">Deep Creek Golf Club</option>
+            
+                <option value="Deer Creek Country Club">Deer Creek Country Club</option>
+            
+                <option value="Deer Creek Golf & Tennis RV Resort">Deer Creek Golf & Tennis RV Resort</option>
+            
+                <option value="Deer Creek Golf Club">Deer Creek Golf Club</option>
+            
+                <option value="Deer Island Country Club">Deer Island Country Club</option>
+            
+                <option value="Deer Run Country Club">Deer Run Country Club</option>
+            
+                <option value="Deerfield Country Club">Deerfield Country Club</option>
+            
+                <option value="Deerfield Lakes Golf Course">Deerfield Lakes Golf Course</option>
+            
+                <option value="Deering Bay Yacht & Country Club">Deering Bay Yacht & Country Club</option>
+            
+                <option value="Deerwood Country Club">Deerwood Country Club</option>
+            
+                <option value="Del Tura Country Club">Del Tura Country Club</option>
+            
+                <option value="Del-Aire Country Club">Del-Aire Country Club</option>
+            
+                <option value="Deland Country Club">Deland Country Club</option>
+            
+                <option value="Delray Beach Golf Club">Delray Beach Golf Club</option>
+            
+                <option value="Delray Dunes Golf & Country Club">Delray Dunes Golf & Country Club</option>
+            
+                <option value="Deltura Country Club">Deltura Country Club</option>
+            
+                <option value="Diamond Hill Golf & Country Club">Diamond Hill Golf & Country Club</option>
+            
+                <option value="Diamond Players Club Wekiva">Diamond Players Club Wekiva</option>
+            
+                <option value="Diamondback Golf Club">Diamondback Golf Club</option>
+            
+                <option value="Diplomat Resort Country Club">Diplomat Resort Country Club</option>
+            
+                <option value="Divots Golf & Learning Center">Divots Golf & Learning Center</option>
+            
+                <option value="Don Shulas Hotel & Golf Club">Don Shulas Hotel & Golf Club</option>
+            
+                <option value="Dubsdread Golf Course">Dubsdread Golf Course</option>
+            
+                <option value="Duffys Golf Center">Duffys Golf Center</option>
+            
+                <option value="Dunedin Stirring Links">Dunedin Stirring Links</option>
+            
+                <option value="Duran Golf Club">Duran Golf Club</option>
+            
+                <option value="Dye Preserve Golf Club">Dye Preserve Golf Club</option>
+            
+                <option value="Dyes Valley at TPC Sawgrass ">Dyes Valley at TPC Sawgrass </option>
+            
+                <option value="Eagle Creek Country Club">Eagle Creek Country Club</option>
+            
+                <option value="Eagle Creek Golf Club">Eagle Creek Golf Club</option>
+            
+                <option value="Eagle Green Golf Course">Eagle Green Golf Course</option>
+            
+                <option value="Eagle Lakes Golf Club">Eagle Lakes Golf Club</option>
+            
+                <option value="Eagle Lakes Golf Course">Eagle Lakes Golf Course</option>
+            
+                <option value="Eagle Landing Golf Club">Eagle Landing Golf Club</option>
+            
+                <option value="Eagle Marsh Golf Club">Eagle Marsh Golf Club</option>
+            
+                <option value="Eagle Point Golf Club">Eagle Point Golf Club</option>
+            
+                <option value="Eagle Ridge Golf Club">Eagle Ridge Golf Club</option>
+            
+                <option value="Eagle Ridge Golf Club ">Eagle Ridge Golf Club </option>
+            
+                <option value="Eagle Woods Golf & Country Club">Eagle Woods Golf & Country Club</option>
+            
+                <option value="Eagles Golf Club">Eagles Golf Club</option>
+            
+                <option value="Eaglewood Country Club">Eaglewood Country Club</option>
+            
+                <option value="Eaglewood Golf Club">Eaglewood Golf Club</option>
+            
+                <option value="East Bay Golf Club">East Bay Golf Club</option>
+            
+                <option value="East Lake Woodlands Golf & Country Club">East Lake Woodlands Golf & Country Club</option>
+            
+                <option value="Eastpointe Country Club">Eastpointe Country Club</option>
+            
+                <option value="Eastwood Golf Club">Eastwood Golf Club</option>
+            
+                <option value="Eastwood Golf Course">Eastwood Golf Course</option>
+            
+                <option value="Eco Golf Course">Eco Golf Course</option>
+            
+                <option value="Edgewater Beach Resort & Golf Course">Edgewater Beach Resort & Golf Course</option>
+            
+                <option value="Eglin Golf Course">Eglin Golf Course</option>
+            
+                <option value="El Conquistador Country Club">El Conquistador Country Club</option>
+            
+                <option value="El Diablo Golf & Country Club">El Diablo Golf & Country Club</option>
+            
+                <option value="El Rio Golf Club">El Rio Golf Club</option>
+            
+                <option value="Emerald Bay Golf Club">Emerald Bay Golf Club</option>
+            
+                <option value="Emerald Dunes">Emerald Dunes</option>
+            
+                <option value="Errol Estate Country Club">Errol Estate Country Club</option>
+            
+                <option value="Everglades Golf Course">Everglades Golf Course</option>
+            
+                <option value="Fairway Village Golf Course">Fairway Village Golf Course</option>
+            
+                <option value="Fairways Country Club">Fairways Country Club</option>
+            
+                <option value="Fairways East">Fairways East</option>
+            
+                <option value="Fairways Golf Club">Fairways Golf Club</option>
+            
+                <option value="Fairwinds Golf Course">Fairwinds Golf Course</option>
+            
+                <option value="Falcons Fire Golf Club">Falcons Fire Golf Club</option>
+            
+                <option value="Faldo Golf Institute by Marriot">Faldo Golf Institute by Marriot</option>
+            
+                <option value="Falling Waters Country Club">Falling Waters Country Club</option>
+            
+                <option value="Family Golf Center at West Palm Beach">Family Golf Center at West Palm Beach</option>
+            
+                <option value="Feather Sound Country Club">Feather Sound Country Club</option>
+            
+                <option value="Fernandina Beach Golf Club">Fernandina Beach Golf Club</option>
+            
+                <option value="Fiddlers Green Golf Club">Fiddlers Green Golf Club</option>
+            
+                <option value="Fiddlesticks Country Club">Fiddlesticks Country Club</option>
+            
+                <option value="Fisher Island Club">Fisher Island Club</option>
+            
+                <option value="Flamingo Lakes Country Club">Flamingo Lakes Country Club</option>
+            
+                <option value="Fleming Island Golf Club">Fleming Island Golf Club</option>
+            
+                <option value="Florida Caverns Golf Course">Florida Caverns Golf Course</option>
+            
+                <option value="Floridian National Golf Club">Floridian National Golf Club</option>
+            
+                <option value="Fontainebleau Park Golf Course">Fontainebleau Park Golf Course</option>
+            
+                <option value="Forest Country Club">Forest Country Club</option>
+            
+                <option value="Forest Hills Golf Course">Forest Hills Golf Course</option>
+            
+                <option value="Forest Lake Golf Club of Ocoee">Forest Lake Golf Club of Ocoee</option>
+            
+                <option value="Forest Lakes Golf Club">Forest Lakes Golf Club</option>
+            
+                <option value="Fort Myers Country Club">Fort Myers Country Club</option>
+            
+                <option value="Fountain Country Club">Fountain Country Club</option>
+            
+                <option value="Fountain Lakes Golf Course">Fountain Lakes Golf Course</option>
+            
+                <option value="Four Lakes Golf Club">Four Lakes Golf Club</option>
+            
+                <option value="Fox Hollow Golf Club">Fox Hollow Golf Club</option>
+            
+                <option value="Fox-Run Country Club / Sandy Creek">Fox-Run Country Club / Sandy Creek</option>
+            
+                <option value="Foxfire Country Club">Foxfire Country Club</option>
+            
+                <option value="Foxfire Golf Club">Foxfire Golf Club</option>
+            
+                <option value="Foxwood Country Club of Crestview">Foxwood Country Club of Crestview</option>
+            
+                <option value="Frenchmans Creek Beach & Country Club">Frenchmans Creek Beach & Country Club</option>
+            
+                <option value="Ft. Lauderdale Country Club">Ft. Lauderdale Country Club</option>
+            
+                <option value="Ft. Walton Beach Golf Club">Ft. Walton Beach Golf Club</option>
+            
+                <option value="Gainesville Country Club">Gainesville Country Club</option>
+            
+                <option value="Gasparilla Inn & Golf Club">Gasparilla Inn & Golf Club</option>
+            
+                <option value="Gator Creek Golf Course">Gator Creek Golf Course</option>
+            
+                <option value="Gator Lakes Golf Course">Gator Lakes Golf Course</option>
+            
+                <option value="Gator Trace Golf & Country Club">Gator Trace Golf & Country Club</option>
+            
+                <option value="Glades Country Club">Glades Country Club</option>
+            
+                <option value="Glen Abbey Golf Club">Glen Abbey Golf Club</option>
+            
+                <option value="Glen Eagle Golf and Country Club">Glen Eagle Golf and Country Club</option>
+            
+                <option value="Glen Kernan Golf and Country Club">Glen Kernan Golf and Country Club</option>
+            
+                <option value="Glen Oaks Golf Course">Glen Oaks Golf Course</option>
+            
+                <option value="Gleneagles Country Club">Gleneagles Country Club</option>
+            
+                <option value="GlenLakes Country Club">GlenLakes Country Club</option>
+            
+                <option value="Glenview">Glenview</option>
+            
+                <option value="Golden Eagle Country Club">Golden Eagle Country Club</option>
+            
+                <option value="Golden Hills Golf & Turf Club">Golden Hills Golf & Turf Club</option>
+            
+                <option value="Golden Lakes Golf Course">Golden Lakes Golf Course</option>
+            
+                <option value="Golden Ocala Golf & Equestrian Club">Golden Ocala Golf & Equestrian Club</option>
+            
+                <option value="Golf & Racquet Club at Eastpointe">Golf & Racquet Club at Eastpointe</option>
+            
+                <option value="Golf Club at Cypress Creek">Golf Club at Cypress Creek</option>
+            
+                <option value="Golf Club at North Hampton">Golf Club at North Hampton</option>
+            
+                <option value="Golf Club at Summerbrooke">Golf Club at Summerbrooke</option>
+            
+                <option value="Golf Club of the Everglades">Golf Club of the Everglades</option>
+            
+                <option value="Golf Hammock Country Club">Golf Hammock Country Club</option>
+            
+                <option value="Golfview Golf & Recreation">Golfview Golf & Recreation</option>
+            
+                <option value="Granada Golf Course">Granada Golf Course</option>
+            
+                <option value="Grand Cypress Golf">Grand Cypress Golf</option>
+            
+                <option value="Grand Harbor Golf & Beach Club">Grand Harbor Golf & Beach Club</option>
+            
+                <option value="Grand Haven Golf Club">Grand Haven Golf Club</option>
+            
+                <option value="Grand Palms Golf & Country Club">Grand Palms Golf & Country Club</option>
+            
+                <option value="Grande Oaks Golf Club">Grande Oaks Golf Club</option>
+            
+                <option value="Grande Vista Golf Club">Grande Vista Golf Club</option>
+            
+                <option value="Grasslands Golf & Country Club">Grasslands Golf & Country Club</option>
+            
+                <option value="Great Oaks Golf Course">Great Oaks Golf Course</option>
+            
+                <option value="Great Outdoors RV & Golf Resort">Great Outdoors RV & Golf Resort</option>
+            
+                <option value="Green Meadows Par Three">Green Meadows Par Three</option>
+            
+                <option value="Green Valley Country Club">Green Valley Country Club</option>
+            
+                <option value="Grenelefe Golf & Tennis Resort">Grenelefe Golf & Tennis Resort</option>
+            
+                <option value="Grey Oaks Golf & Country Club">Grey Oaks Golf & Country Club</option>
+            
+                <option value="Greynolds Golf Course">Greynolds Golf Course</option>
+            
+                <option value="Gulf Gate Golf Course">Gulf Gate Golf Course</option>
+            
+                <option value="Gulf Harbour Golf Course">Gulf Harbour Golf Course</option>
+            
+                <option value="Gulf Harbour Yacht & Country Club">Gulf Harbour Yacht & Country Club</option>
+            
+                <option value="Gulf Stream Golf Course">Gulf Stream Golf Course</option>
+            
+                <option value="Hacienda Hills Golf & Country Club">Hacienda Hills Golf & Country Club</option>
+            
+                <option value="Haile Plantation Golf & Country Club">Haile Plantation Golf & Country Club</option>
+            
+                <option value="Halifax Plantation">Halifax Plantation</option>
+            
+                <option value="Hammock Beach Resort - Conservatory">Hammock Beach Resort - Conservatory</option>
+            
+                <option value="Hammock Beach Resort - Ocean">Hammock Beach Resort - Ocean</option>
+            
+                <option value="Hammock Creek Golf Club">Hammock Creek Golf Club</option>
+            
+                <option value="Hammock Dunes Club">Hammock Dunes Club</option>
+            
+                <option value="Harbor Hills Country Club">Harbor Hills Country Club</option>
+            
+                <option value="Harbor Ridge Yacht & Country Club">Harbor Ridge Yacht & Country Club</option>
+            
+                <option value="Harder Hall Country Club">Harder Hall Country Club</option>
+            
+                <option value="Harmony Golf Preserve">Harmony Golf Preserve</option>
+            
+                <option value="Haulover Beach Park Golf Course">Haulover Beach Park Golf Course</option>
+            
+                <option value="Havana Golf & Country Club">Havana Golf & Country Club</option>
+            
+                <option value="Hawks Landing Golf Club">Hawks Landing Golf Club</option>
+            
+                <option value="Hawks Nest Golf Club">Hawks Nest Golf Club</option>
+            
+                <option value="Heather Golf & Country Club">Heather Golf & Country Club</option>
+            
+                <option value="Hendry Isles Resort & Golf Course">Hendry Isles Resort & Golf Course</option>
+            
+                <option value="Heritage Harbor Golf & Country Club">Heritage Harbor Golf & Country Club</option>
+            
+                <option value="Heritage Isles Golf & Country Club">Heritage Isles Golf & Country Club</option>
+            
+                <option value="Heritage Palms Golf & Country Club">Heritage Palms Golf & Country Club</option>
+            
+                <option value="Heritage Ridge Golf Club">Heritage Ridge Golf Club</option>
+            
+                <option value="Hernando Oaks Golf Club">Hernando Oaks Golf Club</option>
+            
+                <option value="Heron Bay Golf Club">Heron Bay Golf Club</option>
+            
+                <option value="Heron Creek Golf & Country Club">Heron Creek Golf & Country Club</option>
+            
+                <option value="Herons Glen Championship Golf & Country Club">Herons Glen Championship Golf & Country Club</option>
+            
+                <option value="Hibiscus Golf Club">Hibiscus Golf Club</option>
+            
+                <option value="Hidden Gunn Golf & Driving Range">Hidden Gunn Golf & Driving Range</option>
+            
+                <option value="Hidden Hills Golf Course">Hidden Hills Golf Course</option>
+            
+                <option value="Hidden Lakes Golf Course">Hidden Lakes Golf Course</option>
+            
+                <option value="Hideaway Beach Club">Hideaway Beach Club</option>
+            
+                <option value="Hideout Golf Club">Hideout Golf Club</option>
+            
+                <option value="High Point Country Club">High Point Country Club</option>
+            
+                <option value="High Point Golf Club">High Point Golf Club</option>
+            
+                <option value="High Ridge Country Club">High Ridge Country Club</option>
+            
+                <option value="Highland Fairways Golf Club">Highland Fairways Golf Club</option>
+            
+                <option value="Highland Lakes Golf Course">Highland Lakes Golf Course</option>
+            
+                <option value="Highland Woods Golf & Country Club">Highland Woods Golf & Country Club</option>
+            
+                <option value="Highlands Reserve Golf Course">Highlands Reserve Golf Course</option>
+            
+                <option value="Hilaman Municipal Golf Course">Hilaman Municipal Golf Course</option>
+            
+                <option value="Hillcrest Golf Club">Hillcrest Golf Club</option>
+            
+                <option value="Hillsboro Pines Golf Course">Hillsboro Pines Golf Course</option>
+            
+                <option value="Hobe Sound Golf Club">Hobe Sound Golf Club</option>
+            
+                <option value="Hole In The Wall Golf Club">Hole In The Wall Golf Club</option>
+            
+                <option value="Holiday Golf Club">Holiday Golf Club</option>
+            
+                <option value="Holiday Golf Club - Executive">Holiday Golf Club - Executive</option>
+            
+                <option value="Hollybrook Golf & Tennis Club">Hollybrook Golf & Tennis Club</option>
+            
+                <option value="Hollywood Beach Golf & Country Club">Hollywood Beach Golf & Country Club</option>
+            
+                <option value="Hombre Golf Club">Hombre Golf Club</option>
+            
+                <option value="Hunters Creek Golf Club">Hunters Creek Golf Club</option>
+            
+                <option value="Hunters Green Country Club">Hunters Green Country Club</option>
+            
+                <option value="Hunters Ridge Country Club">Hunters Ridge Country Club</option>
+            
+                <option value="Hunters Run Executive Golf Course">Hunters Run Executive Golf Course</option>
+            
+                <option value="Hunters Run Golf Course">Hunters Run Golf Course</option>
+            
+                <option value="Huntington Golf Club">Huntington Golf Club</option>
+            
+                <option value="Huntington Hills Golf & Country Club">Huntington Hills Golf & Country Club</option>
+            
+                <option value="Hyde Park Golf Club">Hyde Park Golf Club</option>
+            
+                <option value="Ibis Golf & Country Club">Ibis Golf & Country Club</option>
+            
+                <option value="Imperial Golf Club">Imperial Golf Club</option>
+            
+                <option value="Imperial Lakes Golf & Racquet Club">Imperial Lakes Golf & Racquet Club</option>
+            
+                <option value="Imperial Lakes Golf Course">Imperial Lakes Golf Course</option>
+            
+                <option value="Indian Bayou Golf & Country Club">Indian Bayou Golf & Country Club</option>
+            
+                <option value="Indian Creek Country Club">Indian Creek Country Club</option>
+            
+                <option value="Indian Hills Country Club">Indian Hills Country Club</option>
+            
+                <option value="Indian Lake Estates Golf & Country Club">Indian Lake Estates Golf & Country Club</option>
+            
+                <option value="Indian River Club">Indian River Club</option>
+            
+                <option value="Indian River Colony Club">Indian River Colony Club</option>
+            
+                <option value="Indian River Preserve Golf Club">Indian River Preserve Golf Club</option>
+            
+                <option value="Indian Springs Golf & Tennis Club">Indian Springs Golf & Tennis Club</option>
+            
+                <option value="Indian Springs Golf Club">Indian Springs Golf Club</option>
+            
+                <option value="Indianwood Golf & Country Club">Indianwood Golf & Country Club</option>
+            
+                <option value="Indigo Lakes Golf Club">Indigo Lakes Golf Club</option>
+            
+                <option value="Innisbrook Resort - Copperhead Course">Innisbrook Resort - Copperhead Course</option>
+            
+                <option value="Innisbrook Resort - Island Course">Innisbrook Resort - Island Course</option>
+            
+                <option value="Innisbrook Resort - North Course">Innisbrook Resort - North Course</option>
+            
+                <option value="Innisbrook Resort - South Course">Innisbrook Resort - South Course</option>
+            
+                <option value="Interlachen Country Club">Interlachen Country Club</option>
+            
+                <option value="International Links">International Links</option>
+            
+                <option value="Inverness Golf & Country Club">Inverness Golf & Country Club</option>
+            
+                <option value="Inverrary Country Club">Inverrary Country Club</option>
+            
+                <option value="Ironhorse Country Club">Ironhorse Country Club</option>
+            
+                <option value="Ironwood Golf Club">Ironwood Golf Club</option>
+            
+                <option value="Ironwood Golf Course">Ironwood Golf Course</option>
+            
+                <option value="Isla Del Sol Golf Yacht & Country Club">Isla Del Sol Golf Yacht & Country Club</option>
+            
+                <option value="Island Country Club">Island Country Club</option>
+            
+                <option value="Island Dunes Country Club">Island Dunes Country Club</option>
+            
+                <option value="Island Golf Center">Island Golf Center</option>
+            
+                <option value="Island Pines Golf Club">Island Pines Golf Club</option>
+            
+                <option value="Isleworth Country Club">Isleworth Country Club</option>
+            
+                <option value="Jacaranda Golf Club">Jacaranda Golf Club</option>
+            
+                <option value="Jacaranda West Country Club">Jacaranda West Country Club</option>
+            
+                <option value="Jacksonville Beach Golf Course">Jacksonville Beach Golf Course</option>
+            
+                <option value="Jacksonville Golf and Country Club">Jacksonville Golf and Country Club</option>
+            
+                <option value="Jake Gaither Municipal Golf Course">Jake Gaither Municipal Golf Course</option>
+            
+                <option value="Jefferson Country Club">Jefferson Country Club</option>
+            
+                <option value="Jo Daddys Golf Course">Jo Daddys Golf Course</option>
+            
+                <option value="John Prince Golf Center">John Prince Golf Center</option>
+            
+                <option value="Johns Island Club">Johns Island Club</option>
+            
+                <option value="Jonathans Landing at Old Trail">Jonathans Landing at Old Trail</option>
+            
+                <option value="Juliette Falls Golf Club">Juliette Falls Golf Club</option>
+            
+                <option value="Julington Creek Golf Club">Julington Creek Golf Club</option>
+            
+                <option value="Jupiter Dunes Golf Course">Jupiter Dunes Golf Course</option>
+            
+                <option value="Jupiter Hills Club - Hills">Jupiter Hills Club - Hills</option>
+            
+                <option value="Jupiter Hills Club - Village">Jupiter Hills Club - Village</option>
+            
+                <option value="Jupiter Island Club">Jupiter Island Club</option>
+            
+                <option value="JW Marriott Marco Island - Hammock Bay">JW Marriott Marco Island - Hammock Bay</option>
+            
+                <option value="JW Marriott Marco Island - The Rockery">JW Marriott Marco Island - The Rockery</option>
+            
+                <option value="Kelly Greens Golf & Country Club">Kelly Greens Golf & Country Club</option>
+            
+                <option value="Kelly Plantation">Kelly Plantation</option>
+            
+                <option value="Kensington Golf & Country Club">Kensington Golf & Country Club</option>
+            
+                <option value="Key Colony Beach Golf & Tennis">Key Colony Beach Golf & Tennis</option>
+            
+                <option value="Key Royale Club">Key Royale Club</option>
+            
+                <option value="Key West Golf Club">Key West Golf Club</option>
+            
+                <option value="Keys Gate Golf & Tennis Club">Keys Gate Golf & Tennis Club</option>
+            
+                <option value="Keystone Golf & Country Club">Keystone Golf & Country Club</option>
+            
+                <option value="Killearn Country Club & Inn">Killearn Country Club & Inn</option>
+            
+                <option value="Killian Greens Golf Club">Killian Greens Golf Club</option>
+            
+                <option value="King Mountain Condo Association">King Mountain Condo Association</option>
+            
+                <option value="Kings Point Executive Course">Kings Point Executive Course</option>
+            
+                <option value="Kings Point Executive Golf Course">Kings Point Executive Golf Course</option>
+            
+                <option value="Kings Point Par 3">Kings Point Par 3</option>
+            
+                <option value="Kings Ridge Golf Club">Kings Ridge Golf Club</option>
+            
+                <option value="Kingsway Country Club">Kingsway Country Club</option>
+            
+                <option value="Kissimmee Bay Country Club">Kissimmee Bay Country Club</option>
+            
+                <option value="Kissimmee Golf Club">Kissimmee Golf Club</option>
+            
+                <option value="Kissimmee Oaks Golf Club">Kissimmee Oaks Golf Club</option>
+            
+                <option value="KOA Fairways Golf Course">KOA Fairways Golf Course</option>
+            
+                <option value="La Cita Golf & Country Club">La Cita Golf & Country Club</option>
+            
+                <option value="La Gorce Country Club">La Gorce Country Club</option>
+            
+                <option value="Lago Mar Country Club">Lago Mar Country Club</option>
+            
+                <option value="Lake Ashton Golf Club">Lake Ashton Golf Club</option>
+            
+                <option value="Lake Bess Country Club">Lake Bess Country Club</option>
+            
+                <option value="Lake Country Golf & Country Club">Lake Country Golf & Country Club</option>
+            
+                <option value="Lake Diamond Golf & Country Club">Lake Diamond Golf & Country Club</option>
+            
+                <option value="Lake Fairways Country Club">Lake Fairways Country Club</option>
+            
+                <option value="Lake Henry Golf Club">Lake Henry Golf Club</option>
+            
+                <option value="Lake Jovita Golf and Country Club">Lake Jovita Golf and Country Club</option>
+            
+                <option value="Lake Nona Golf and Country Club">Lake Nona Golf and Country Club</option>
+            
+                <option value="Lake Orlando Golf Club">Lake Orlando Golf Club</option>
+            
+                <option value="Lake Venice Golf Club">Lake Venice Golf Club</option>
+            
+                <option value="Lake Wales Country Club">Lake Wales Country Club</option>
+            
+                <option value="Lake Worth Golf Club">Lake Worth Golf Club</option>
+            
+                <option value="Lakes of Lady Lakes Golf Club">Lakes of Lady Lakes Golf Club</option>
+            
+                <option value="Lakeside Golf Course">Lakeside Golf Course</option>
+            
+                <option value="Lakeview Golf Club">Lakeview Golf Club</option>
+            
+                <option value="Lakewood Country Club">Lakewood Country Club</option>
+            
+                <option value="Lakewood Ranch Golf & Country Club">Lakewood Ranch Golf & Country Club</option>
+            
+                <option value="Landings Yacht, Golf & Tennis Club">Landings Yacht, Golf & Tennis Club</option>
+            
+                <option value="Lansbrook Golf Club">Lansbrook Golf Club</option>
+            
+                <option value="LaPlaya Golf Club">LaPlaya Golf Club</option>
+            
+                <option value="Largo Golf Course">Largo Golf Course</option>
+            
+                <option value="Lauderhills Golf Course">Lauderhills Golf Course</option>
+            
+                <option value="Laurel Oak Country Club">Laurel Oak Country Club</option>
+            
+                <option value="Legacy Club at Alaqua Lakes">Legacy Club at Alaqua Lakes</option>
+            
+                <option value="Legacy Golf Club at Lakewood Ranch">Legacy Golf Club at Lakewood Ranch</option>
+            
+                <option value="Legends Golf & Country Club">Legends Golf & Country Club</option>
+            
+                <option value="Leisureville Fairway">Leisureville Fairway</option>
+            
+                <option value="Leisureville Golf Course">Leisureville Golf Course</option>
+            
+                <option value="Lekarica Hills Golf Club">Lekarica Hills Golf Club</option>
+            
+                <option value="Lely Golf Resort">Lely Golf Resort</option>
+            
+                <option value="Lemon Bay Golf Club">Lemon Bay Golf Club</option>
+            
+                <option value="Lexington Country Club">Lexington Country Club</option>
+            
+                <option value="Leza Leisure Lakes Golf Course">Leza Leisure Lakes Golf Course</option>
+            
+                <option value="Lily Lake Golf Resort">Lily Lake Golf Resort</option>
+            
+                <option value="Links at Greenfield Plantation">Links at Greenfield Plantation</option>
+            
+                <option value="Links At Madison Green">Links At Madison Green</option>
+            
+                <option value="Links at Pointe West">Links at Pointe West</option>
+            
+                <option value="Links Golf Club,The">Links Golf Club,The</option>
+            
+                <option value="Links of Lake Bernadette">Links of Lake Bernadette</option>
+            
+                <option value="Little Cypress Golf Club">Little Cypress Golf Club</option>
+            
+                <option value="Live Oak Golf & Country Club">Live Oak Golf & Country Club</option>
+            
+                <option value="Live Oak RV Golf Course">Live Oak RV Golf Course</option>
+            
+                <option value="Loblolly Pines Golf Course">Loblolly Pines Golf Course</option>
+            
+                <option value="Lochmoor Country Club">Lochmoor Country Club</option>
+            
+                <option value="Lone Palm Golf Course">Lone Palm Golf Course</option>
+            
+                <option value="Lone Pines Golf Course">Lone Pines Golf Course</option>
+            
+                <option value="Lost Key Golf Club">Lost Key Golf Club</option>
+            
+                <option value="Lost Lake Golf Club">Lost Lake Golf Club</option>
+            
+                <option value="Lost Tree Club">Lost Tree Club</option>
+            
+                <option value="Loxahatchee Club">Loxahatchee Club</option>
+            
+                <option value="LPGA International">LPGA International</option>
+            
+                <option value="Lucerne Lakes Golf Club">Lucerne Lakes Golf Club</option>
+            
+                <option value="Madison Country Club">Madison Country Club</option>
+            
+                <option value="Magnolia Plantation Golf Club">Magnolia Plantation Golf Club</option>
+            
+                <option value="Magnolia Point Golf & Country Club">Magnolia Point Golf & Country Club</option>
+            
+                <option value="Magnolia Valley Golf Club">Magnolia Valley Golf Club</option>
+            
+                <option value="Mainlands Golf Course">Mainlands Golf Course</option>
+            
+                <option value="Majestic Golf Club">Majestic Golf Club</option>
+            
+                <option value="Mallards Landing Golf Course">Mallards Landing Golf Course</option>
+            
+                <option value="Manatee County Golf Course">Manatee County Golf Course</option>
+            
+                <option value="Manatee Cove Golf Course">Manatee Cove Golf Course</option>
+            
+                <option value="Mangrove Bay Golf Course">Mangrove Bay Golf Course</option>
+            
+                <option value="Maple Leaf Estates Golf Course">Maple Leaf Estates Golf Course</option>
+            
+                <option value="Marcus Pointe Golf Club">Marcus Pointe Golf Club</option>
+            
+                <option value="Marina Lakes Country Club">Marina Lakes Country Club</option>
+            
+                <option value="Mariner Sands Country Club">Mariner Sands Country Club</option>
+            
+                <option value="Marion Oaks Country Club">Marion Oaks Country Club</option>
+            
+                <option value="Mark Bostick Golf Course at University of Florida">Mark Bostick Golf Course at University of Florida</option>
+            
+                <option value="Marriott Hutchinson Island Beach Resort - Ocean Club">Marriott Hutchinson Island Beach Resort - Ocean Club</option>
+            
+                <option value="Marriotts Grande Pines Golf Club">Marriotts Grande Pines Golf Club</option>
+            
+                <option value="Marsh Creek Country Club">Marsh Creek Country Club</option>
+            
+                <option value="Marsh Landing Country Club">Marsh Landing Country Club</option>
+            
+                <option value="Martin County Golf Course">Martin County Golf Course</option>
+            
+                <option value="Mayacoo Lakes Country Club">Mayacoo Lakes Country Club</option>
+            
+                <option value="Mayfair Country Club">Mayfair Country Club</option>
+            
+                <option value="Meadow Oaks Golf & Country Club">Meadow Oaks Golf & Country Club</option>
+            
+                <option value="Meadow Woods Golf Club">Meadow Woods Golf Club</option>
+            
+                <option value="Meadowbrook Golf Club">Meadowbrook Golf Club</option>
+            
+                <option value="Meadowood Golf and Tennis Club">Meadowood Golf and Tennis Club</option>
+            
+                <option value="Meadows Country Club">Meadows Country Club</option>
+            
+                <option value="MetroWest Country Club">MetroWest Country Club</option>
+            
+                <option value="Miami Beach Golf Club">Miami Beach Golf Club</option>
+            
+                <option value="Miami Shores Country Club">Miami Shores Country Club</option>
+            
+                <option value="Miami Springs Golf Course">Miami Springs Golf Course</option>
+            
+                <option value="Miccosukee Golf & Country Club">Miccosukee Golf & Country Club</option>
+            
+                <option value="Miles Grant Country Club">Miles Grant Country Club</option>
+            
+                <option value="Miona Lake Golf Club">Miona Lake Golf Club</option>
+            
+                <option value="Miromar Lakes Golf Club">Miromar Lakes Golf Club</option>
+            
+                <option value="Mission Inn Resort & Club">Mission Inn Resort & Club</option>
+            
+                <option value="Mission Valley Country Club">Mission Valley Country Club</option>
+            
+                <option value="Misty Creek Country Club">Misty Creek Country Club</option>
+            
+                <option value="Mizner Country Club">Mizner Country Club</option>
+            
+                <option value="Mizner Trail Golf Club">Mizner Trail Golf Club</option>
+            
+                <option value="Monarch Country Club">Monarch Country Club</option>
+            
+                <option value="Monarch Golf Club at Royal High">Monarch Golf Club at Royal High</option>
+            
+                <option value="Moorings Club of Vero Beach">Moorings Club of Vero Beach</option>
+            
+                <option value="Moorings Country Club">Moorings Country Club</option>
+            
+                <option value="Mount Dora Golf Club">Mount Dora Golf Club</option>
+            
+                <option value="Mount Plymouth Golf Club">Mount Plymouth Golf Club</option>
+            
+                <option value="Mountain Lake">Mountain Lake</option>
+            
+                <option value="Myakka Pines Golf Club">Myakka Pines Golf Club</option>
+            
+                <option value="Myerlee Country Club">Myerlee Country Club</option>
+            
+                <option value="Mystic Dunes Golf Club">Mystic Dunes Golf Club</option>
+            
+                <option value="Nancy Lopez Legacy Golf & Country Club">Nancy Lopez Legacy Golf & Country Club</option>
+            
+                <option value="Naples Beach Hotel & Golf Club">Naples Beach Hotel & Golf Club</option>
+            
+                <option value="Naples Grande Golf Club">Naples Grande Golf Club</option>
+            
+                <option value="Naples Heritage">Naples Heritage</option>
+            
+                <option value="Naples Lakes Country Club">Naples Lakes Country Club</option>
+            
+                <option value="Naples National Golf Club">Naples National Golf Club</option>
+            
+                <option value="NAS Whiting Field Golf Course">NAS Whiting Field Golf Course</option>
+            
+                <option value="Nature Walk Golf Club">Nature Walk Golf Club</option>
+            
+                <option value="Naval Air Station Golf Course">Naval Air Station Golf Course</option>
+            
+                <option value="New Smyrna Golf Course">New Smyrna Golf Course</option>
+            
+                <option value="Normandy Shores Golf Course">Normandy Shores Golf Course</option>
+            
+                <option value="North Palm Beach Country Club">North Palm Beach Country Club</option>
+            
+                <option value="North River Golf Club">North River Golf Club</option>
+            
+                <option value="North Shore Golf Club">North Shore Golf Club</option>
+            
+                <option value="Northdale Golf & Tennis Club">Northdale Golf & Tennis Club</option>
+            
+                <option value="Oak Ford Golf Club">Oak Ford Golf Club</option>
+            
+                <option value="Oak Hill Golf Course">Oak Hill Golf Course</option>
+            
+                <option value="Oak Run Country Club">Oak Run Country Club</option>
+            
+                <option value="Oak Tree Country Club">Oak Tree Country Club</option>
+            
+                <option value="Oaks Hills Golf Course">Oaks Hills Golf Course</option>
+            
+                <option value="Oakwood Golf Club">Oakwood Golf Club</option>
+            
+                <option value="Ocala Golf Club">Ocala Golf Club</option>
+            
+                <option value="Ocala Palms Golf Club">Ocala Palms Golf Club</option>
+            
+                <option value="Ocean Reef Club">Ocean Reef Club</option>
+            
+                <option value="Ocean Village Golf Course">Ocean Village Golf Course</option>
+            
+                <option value="Oceans West Golf Club">Oceans West Golf Club</option>
+            
+                <option value="Oceanside Golf & Country Club">Oceanside Golf & Country Club</option>
+            
+                <option value="Okeechobee Golf & Country Club">Okeechobee Golf & Country Club</option>
+            
+                <option value="Okeeheelee Golf Course">Okeeheelee Golf Course</option>
+            
+                <option value="Old Corkscrew Golf Club">Old Corkscrew Golf Club</option>
+            
+                <option value="Old Marsh Golf Club">Old Marsh Golf Club</option>
+            
+                <option value="Old Memorial Golf Club">Old Memorial Golf Club</option>
+            
+                <option value="Old Palm Golf Club">Old Palm Golf Club</option>
+            
+                <option value="Olde Florida Golf Club">Olde Florida Golf Club</option>
+            
+                <option value="Olde Hickory Golf & Country Club">Olde Hickory Golf & Country Club</option>
+            
+                <option value="Omni Amelia Island Resort - Little Sandy">Omni Amelia Island Resort - Little Sandy</option>
+            
+                <option value="Omni Amelia Island Resort - Oak Marsh">Omni Amelia Island Resort - Oak Marsh</option>
+            
+                <option value="Omni ChampionsGate Golf Resort - International">Omni ChampionsGate Golf Resort - International</option>
+            
+                <option value="On Top of the World">On Top of the World</option>
+            
+                <option value="Orange Blossom Hills Golf & Country Club">Orange Blossom Hills Golf & Country Club</option>
+            
+                <option value="Orange County National Golf Center and Lodge">Orange County National Golf Center and Lodge</option>
+            
+                <option value="Orange Lake Resort">Orange Lake Resort</option>
+            
+                <option value="Orange Tree Golf Club">Orange Tree Golf Club</option>
+            
+                <option value="Orangebrook Country Club">Orangebrook Country Club</option>
+            
+                <option value="Orchid Island Golf & Beach Club">Orchid Island Golf & Beach Club</option>
+            
+                <option value="Oriole Golf & Tennis Club of Margate">Oriole Golf & Tennis Club of Margate</option>
+            
+                <option value="Osceola Golf Club/Buenaventura Lakes">Osceola Golf Club/Buenaventura Lakes</option>
+            
+                <option value="Osceola Municipal Golf Course">Osceola Municipal Golf Course</option>
+            
+                <option value="Osprey Creek at Martin Downs">Osprey Creek at Martin Downs</option>
+            
+                <option value="Osprey Point Golf Course ">Osprey Point Golf Course </option>
+            
+                <option value="Oyster Creek Golf & Country Club">Oyster Creek Golf & Country Club</option>
+            
+                <option value="Pablo Creek Club">Pablo Creek Club</option>
+            
+                <option value="Palatka Golf Club">Palatka Golf Club</option>
+            
+                <option value="Palencia Club">Palencia Club</option>
+            
+                <option value="Palisades Country Club">Palisades Country Club</option>
+            
+                <option value="Palm Beach Country Club">Palm Beach Country Club</option>
+            
+                <option value="Palm Beach Gardens Golf Club">Palm Beach Gardens Golf Club</option>
+            
+                <option value="Palm Beach National Golf Course">Palm Beach National Golf Course</option>
+            
+                <option value="Palm Beach Polo & Country Club">Palm Beach Polo & Country Club</option>
+            
+                <option value="Palm Cove Golf & Yacht Club">Palm Cove Golf & Yacht Club</option>
+            
+                <option value="Palm Gardens Golf Course">Palm Gardens Golf Course</option>
+            
+                <option value="Palm Harbor Golf Club">Palm Harbor Golf Club</option>
+            
+                <option value="Palm Hill Country Club">Palm Hill Country Club</option>
+            
+                <option value="Palm Valley Golf Club">Palm Valley Golf Club</option>
+            
+                <option value="Palm View Hills Golf Course">Palm View Hills Golf Course</option>
+            
+                <option value="Palm-Aire Country Club">Palm-Aire Country Club</option>
+            
+                <option value="Palm-Aire Country Club">Palm-Aire Country Club</option>
+            
+                <option value="Palma Ceia Golf & Country Club">Palma Ceia Golf & Country Club</option>
+            
+                <option value="Palmetto Golf Course">Palmetto Golf Course</option>
+            
+                <option value="Palmetto Pines Golf Course">Palmetto Pines Golf Course</option>
+            
+                <option value="Palmetto-Pine Country Club">Palmetto-Pine Country Club</option>
+            
+                <option value="Panama Country Club">Panama Country Club</option>
+            
+                <option value="Panther Run Golf Club">Panther Run Golf Club</option>
+            
+                <option value="Parkland Golf and Country Club">Parkland Golf and Country Club</option>
+            
+                <option value="Pasadena Yacht & Country Club">Pasadena Yacht & Country Club</option>
+            
+                <option value="Pebble Creek Golf Club">Pebble Creek Golf Club</option>
+            
+                <option value="Pelican Bay North Country Club">Pelican Bay North Country Club</option>
+            
+                <option value="Pelican Bay South Country Club">Pelican Bay South Country Club</option>
+            
+                <option value="Pelican Marsh Golf Club">Pelican Marsh Golf Club</option>
+            
+                <option value="Pelican Point Golf Course">Pelican Point Golf Course</option>
+            
+                <option value="Pelican Pointe Golf & Country Club">Pelican Pointe Golf & Country Club</option>
+            
+                <option value="Pelican Preserve Golf Club">Pelican Preserve Golf Club</option>
+            
+                <option value="Pelican Sound Golf & River Club">Pelican Sound Golf & River Club</option>
+            
+                <option value="Pelican's Nest Golf Club at Pelican Landing">Pelican's Nest Golf Club at Pelican Landing</option>
+            
+                <option value="Pembroke Lakes Golf & Racquet Club">Pembroke Lakes Golf & Racquet Club</option>
+            
+                <option value="Pennbrooke Fairways">Pennbrooke Fairways</option>
+            
+                <option value="Penney Farms Retirement Community Golf Course">Penney Farms Retirement Community Golf Course</option>
+            
+                <option value="Pensacola Country Club">Pensacola Country Club</option>
+            
+                <option value="Perdido Bay Country Club">Perdido Bay Country Club</option>
+            
+                <option value="Peridia Golf & Country Club">Peridia Golf & Country Club</option>
+            
+                <option value="Perry Golf & Country Club">Perry Golf & Country Club</option>
+            
+                <option value="PGA Golf Club">PGA Golf Club</option>
+            
+                <option value="PGA Golf Club - Ryder">PGA Golf Club - Ryder</option>
+            
+                <option value="PGA National - The Champion Course">PGA National - The Champion Course</option>
+            
+                <option value="PGA National - The Estate Course">PGA National - The Estate Course</option>
+            
+                <option value="PGA National - The Fazio Course">PGA National - The Fazio Course</option>
+            
+                <option value="PGA National - The Match Course">PGA National - The Match Course</option>
+            
+                <option value="PGA National - The Palmer Course">PGA National - The Palmer Course</option>
+            
+                <option value="PGA National - The Staple Course">PGA National - The Staple Course</option>
+            
+                <option value="PGA Village - Dye">PGA Village - Dye</option>
+            
+                <option value="PGA Village - Wanamaker">PGA Village - Wanamaker</option>
+            
+                <option value="Pine Island Ridge Country Club">Pine Island Ridge Country Club</option>
+            
+                <option value="Pine Lakes Country Club">Pine Lakes Country Club</option>
+            
+                <option value="Pine Lakes Golf Course">Pine Lakes Golf Course</option>
+            
+                <option value="Pine Meadows Golf & Country Club">Pine Meadows Golf & Country Club</option>
+            
+                <option value="Pine Oaks Golf Course">Pine Oaks Golf Course</option>
+            
+                <option value="Pine Ridge Country Club">Pine Ridge Country Club</option>
+            
+                <option value="Pine Tree Golf Course">Pine Tree Golf Course</option>
+            
+                <option value="Pinebrook Ironwood Golf Course">Pinebrook Ironwood Golf Course</option>
+            
+                <option value="Pinecrest Golf Club">Pinecrest Golf Club</option>
+            
+                <option value="Pinecrest Golf Course">Pinecrest Golf Course</option>
+            
+                <option value="Pines Par 3 Golf Course">Pines Par 3 Golf Course</option>
+            
+                <option value="Pineview Golf Course">Pineview Golf Course</option>
+            
+                <option value="Pipers Landing Country Club">Pipers Landing Country Club</option>
+            
+                <option value="Placid Lakes Country Club">Placid Lakes Country Club</option>
+            
+                <option value="Plant City Golf Club">Plant City Golf Club</option>
+            
+                <option value="Plantation at Leesburg">Plantation at Leesburg</option>
+            
+                <option value="Plantation at Ponte Vedra">Plantation at Ponte Vedra</option>
+            
+                <option value="Plantation Bay Golf & Country Club">Plantation Bay Golf & Country Club</option>
+            
+                <option value="Plantation Golf & Country Club">Plantation Golf & Country Club</option>
+            
+                <option value="Plantation on Crystal River">Plantation on Crystal River</option>
+            
+                <option value="Poinciana Country Club">Poinciana Country Club</option>
+            
+                <option value="Poinciana Golf & Racquet Resort">Poinciana Golf & Racquet Resort</option>
+            
+                <option value="Point OWoods Golf Club">Point OWoods Golf Club</option>
+            
+                <option value="Polo Club">Polo Club</option>
+            
+                <option value="Polo Park East">Polo Park East</option>
+            
+                <option value="Polo Park Golf Course">Polo Park Golf Course</option>
+            
+                <option value="Polo Trace Golf Club">Polo Trace Golf Club</option>
+            
+                <option value="Pompano Beach Golf Course">Pompano Beach Golf Course</option>
+            
+                <option value="Ponte Vedra Inn & Club">Ponte Vedra Inn & Club</option>
+            
+                <option value="Port Charlotte Golf Club">Port Charlotte Golf Club</option>
+            
+                <option value="Port LaBelle Inn & Oxbow Golf Club">Port LaBelle Inn & Oxbow Golf Club</option>
+            
+                <option value="President Country Club">President Country Club</option>
+            
+                <option value="Presidential Country Club">Presidential Country Club</option>
+            
+                <option value="Prestwick Golf Club at Plantation Bay">Prestwick Golf Club at Plantation Bay</option>
+            
+                <option value="Providence Golf Club">Providence Golf Club</option>
+            
+                <option value="Publix Par 3 Golf Center">Publix Par 3 Golf Center</option>
+            
+                <option value="Quail Creek Country Club">Quail Creek Country Club</option>
+            
+                <option value="Quail Heights Country Club">Quail Heights Country Club</option>
+            
+                <option value="Quail Hollow Golf & Country Club">Quail Hollow Golf & Country Club</option>
+            
+                <option value="Quail Ridge Country Club">Quail Ridge Country Club</option>
+            
+                <option value="Quail Ridge Golf & Country Club">Quail Ridge Golf & Country Club</option>
+            
+                <option value="Quail Run Golf Club">Quail Run Golf Club</option>
+            
+                <option value="Quail Village Golf Club">Quail Village Golf Club</option>
+            
+                <option value="Quail West Golf & Country Club">Quail West Golf & Country Club</option>
+            
+                <option value="Quality Inn & Suites Golf Resort">Quality Inn & Suites Golf Resort</option>
+            
+                <option value="Quarry Golf Course & Driving Range">Quarry Golf Course & Driving Range</option>
+            
+                <option value="Queens Harbour Yacht and Country Club">Queens Harbour Yacht and Country Club</option>
+            
+                <option value="Rainbow Springs Golf & Country Club">Rainbow Springs Golf & Country Club</option>
+            
+                <option value="Rainbows End Golf & Country Club">Rainbows End Golf & Country Club</option>
+            
+                <option value="Raintree Golf Resort">Raintree Golf Resort</option>
+            
+                <option value="Raptor Bay Golf Club">Raptor Bay Golf Club</option>
+            
+                <option value="Ravines Inn & Golf Club">Ravines Inn & Golf Club</option>
+            
+                <option value="Red Bay Golf Club">Red Bay Golf Club</option>
+            
+                <option value="Red Reef Golf Course">Red Reef Golf Course</option>
+            
+                <option value="Redland Country Club">Redland Country Club</option>
+            
+                <option value="Regatta Bay Golf & Country Club">Regatta Bay Golf & Country Club</option>
+            
+                <option value="Remington Golf & Country Club">Remington Golf & Country Club</option>
+            
+                <option value="Reunion Resort">Reunion Resort</option>
+            
+                <option value="Ridgewood Lakes Golf Club">Ridgewood Lakes Golf Club</option>
+            
+                <option value="Rio Pinar Country Club">Rio Pinar Country Club</option>
+            
+                <option value="Riomar Country Club">Riomar Country Club</option>
+            
+                <option value="River Bend Golf Club">River Bend Golf Club</option>
+            
+                <option value="River Greens Golf Course">River Greens Golf Course</option>
+            
+                <option value="River Hall Country Club">River Hall Country Club</option>
+            
+                <option value="River Hills Country Club">River Hills Country Club</option>
+            
+                <option value="River Isles Golf Course">River Isles Golf Course</option>
+            
+                <option value="River Ranch">River Ranch</option>
+            
+                <option value="River Ridge Golf Club">River Ridge Golf Club</option>
+            
+                <option value="River Run Golf Links">River Run Golf Links</option>
+            
+                <option value="River Wilderness Country Club">River Wilderness Country Club</option>
+            
+                <option value="Riverbend Golf Course">Riverbend Golf Course</option>
+            
+                <option value="Rivers Bend at the Old Barn Resort">Rivers Bend at the Old Barn Resort</option>
+            
+                <option value="Riverside Golf Course">Riverside Golf Course</option>
+            
+                <option value="Riverwood Golf Club">Riverwood Golf Club</option>
+            
+                <option value="Riviera Country Club">Riviera Country Club</option>
+            
+                <option value="Riviera Country Club">Riviera Country Club</option>
+            
+                <option value="Riviera Golf Club of Naples">Riviera Golf Club of Naples</option>
+            
+                <option value="Rock Springs Ridge Golf Club">Rock Springs Ridge Golf Club</option>
+            
+                <option value="Rockledge Country Club">Rockledge Country Club</option>
+            
+                <option value="Rocky Bayou Country Club">Rocky Bayou Country Club</option>
+            
+                <option value="Rocky Point Golf Course">Rocky Point Golf Course</option>
+            
+                <option value="Rogers Park Golf Course">Rogers Park Golf Course</option>
+            
+                <option value="Rolling Green Golf Club">Rolling Green Golf Club</option>
+            
+                <option value="Rolling Greens Executive Golf Course">Rolling Greens Executive Golf Course</option>
+            
+                <option value="Rolling Hills Golf Club">Rolling Hills Golf Club</option>
+            
+                <option value="Rosedale Golf & Tennis Club">Rosedale Golf & Tennis Club</option>
+            
+                <option value="Rotonda Golf - Long Marsh Golf Club">Rotonda Golf - Long Marsh Golf Club</option>
+            
+                <option value="Rotonda Golf - The Palms">Rotonda Golf - The Palms</option>
+            
+                <option value="Royal Oak Resort & Golf Club">Royal Oak Resort & Golf Club</option>
+            
+                <option value="Royal Oaks at Oak Run Country Club">Royal Oaks at Oak Run Country Club</option>
+            
+                <option value="Royal Palm Country Club">Royal Palm Country Club</option>
+            
+                <option value="Royal Palm Yacht & Country Club">Royal Palm Yacht & Country Club</option>
+            
+                <option value="Royal Poinciana Golf Club">Royal Poinciana Golf Club</option>
+            
+                <option value="Royal St Cloud Golf Links">Royal St Cloud Golf Links</option>
+            
+                <option value="Royal Tee Country Club">Royal Tee Country Club</option>
+            
+                <option value="Royal Wood Golf & Country Club">Royal Wood Golf & Country Club</option>
+            
+                <option value="Sabal Palm Golf Course">Sabal Palm Golf Course</option>
+            
+                <option value="Sabal Point Country Club">Sabal Point Country Club</option>
+            
+                <option value="Sabal Springs Golf & Racquet Club">Sabal Springs Golf & Racquet Club</option>
+            
+                <option value="Sabal Trace Golf & Country Club">Sabal Trace Golf & Country Club</option>
+            
+                <option value="Saddlebrook Resort">Saddlebrook Resort</option>
+            
+                <option value="Saddlebrook Resort - Palmer Course">Saddlebrook Resort - Palmer Course</option>
+            
+                <option value="Sailfish Point Golf Club">Sailfish Point Golf Club</option>
+            
+                <option value="Sailfish Sands">Sailfish Sands</option>
+            
+                <option value="Saltleaf Golf Preserve">Saltleaf Golf Preserve</option>
+            
+                <option value="Sams Executive Golf Course">Sams Executive Golf Course</option>
+            
+                <option value="San Carlos Golf Club">San Carlos Golf Club</option>
+            
+                <option value="San Jose Country Club">San Jose Country Club</option>
+            
+                <option value="Sanctuary Ridge">Sanctuary Ridge</option>
+            
+                <option value="Sandestin Golf and Beach Resort - Baytowne Golf Club">Sandestin Golf and Beach Resort - Baytowne Golf Club</option>
+            
+                <option value="Sandestin Golf and Beach Resort - Burnt Pine Golf Club">Sandestin Golf and Beach Resort - Burnt Pine Golf Club</option>
+            
+                <option value="Sandestin Golf and Beach Resort - Raven Golf Club">Sandestin Golf and Beach Resort - Raven Golf Club</option>
+            
+                <option value="Sandestin Resort - The Links Golf Club">Sandestin Resort - The Links Golf Club</option>
+            
+                <option value="Sandpiper Cove Par Three">Sandpiper Cove Par Three</option>
+            
+                <option value="Sandpiper Golf & Country Club">Sandpiper Golf & Country Club</option>
+            
+                <option value="Sandpiper Golf Club">Sandpiper Golf Club</option>
+            
+                <option value="Sandridge Golf Club">Sandridge Golf Club</option>
+            
+                <option value="Sanibel Island Golf Club">Sanibel Island Golf Club</option>
+            
+                <option value="Sanlan Golf Course">Sanlan Golf Course</option>
+            
+                <option value="Santa Rosa Golf & Beach Club">Santa Rosa Golf & Beach Club</option>
+            
+                <option value="Sara Bay Country Club">Sara Bay Country Club</option>
+            
+                <option value="Sarabande Golf & Yacht Club">Sarabande Golf & Yacht Club</option>
+            
+                <option value="Sarasota Golf Club">Sarasota Golf Club</option>
+            
+                <option value="Savanna Club Golf Course">Savanna Club Golf Course</option>
+            
+                <option value="Savannahs at Merritt Island">Savannahs at Merritt Island</option>
+            
+                <option value="Sawgrass Country Club">Sawgrass Country Club</option>
+            
+                <option value="Sawgrass Country Club - West/East">Sawgrass Country Club - West/East</option>
+            
+                <option value="Scenic Hills Country Club">Scenic Hills Country Club</option>
+            
+                <option value="Schalamar Creek Golf & Country Club">Schalamar Creek Golf & Country Club</option>
+            
+                <option value="Scotland Yards Golf Club">Scotland Yards Golf Club</option>
+            
+                <option value="Seagate Country Club">Seagate Country Club</option>
+            
+                <option value="Seapines Golf Club">Seapines Golf Club</option>
+            
+                <option value="Seascape Resort">Seascape Resort</option>
+            
+                <option value="Sebastian Municipal Golf Course">Sebastian Municipal Golf Course</option>
+            
+                <option value="Sebring Golf Club">Sebring Golf Club</option>
+            
+                <option value="Sebring International Golf Resort">Sebring International Golf Resort</option>
+            
+                <option value="Sebring Lakeside Golf Resort">Sebring Lakeside Golf Resort</option>
+            
+                <option value="Selva Marina Country Club">Selva Marina Country Club</option>
+            
+                <option value="Seminole Golf Club">Seminole Golf Club</option>
+            
+                <option value="Seminole Lake Country Club">Seminole Lake Country Club</option>
+            
+                <option value="Seminole Lakes">Seminole Lakes</option>
+            
+                <option value="Seminole Legacy Golf Club">Seminole Legacy Golf Club</option>
+            
+                <option value="Serenoa Golf Club">Serenoa Golf Club</option>
+            
+                <option value="Seven Hills Golf Course">Seven Hills Golf Course</option>
+            
+                <option value="Seven Lakes">Seven Lakes</option>
+            
+                <option value="Seven Rivers Golf & Country Club">Seven Rivers Golf & Country Club</option>
+            
+                <option value="Seven Springs Country Club">Seven Springs Country Club</option>
+            
+                <option value="Shadow Wood Country Club">Shadow Wood Country Club</option>
+            
+                <option value="Shady Brook Golf & RV Resort">Shady Brook Golf & RV Resort</option>
+            
+                <option value="Shalimar Pointe Golf & Country Club">Shalimar Pointe Golf & Country Club</option>
+            
+                <option value="Shell Point Golf Club">Shell Point Golf Club</option>
+            
+                <option value="Sherbrooke Golf & Country Club">Sherbrooke Golf & Country Club</option>
+            
+                <option value="Sherman Hills Golf Club">Sherman Hills Golf Club</option>
+            
+                <option value="Sherwood Golf Club">Sherwood Golf Club</option>
+            
+                <option value="Sherwood Park Golf Course">Sherwood Park Golf Course</option>
+            
+                <option value="Shingle Creek Golf Club">Shingle Creek Golf Club</option>
+            
+                <option value="Shoal River Country Club">Shoal River Country Club</option>
+            
+                <option value="Signal Hill Golf Course">Signal Hill Golf Course</option>
+            
+                <option value="Silver Dollar Golf Club">Silver Dollar Golf Club</option>
+            
+                <option value="Silver Lakes RV Resort & Golf Club">Silver Lakes RV Resort & Golf Club</option>
+            
+                <option value="Silver Oaks Golf & Country Club">Silver Oaks Golf & Country Club</option>
+            
+                <option value="SilverLake Country Club">SilverLake Country Club</option>
+            
+                <option value="Silverthorn Country Club">Silverthorn Country Club</option>
+            
+                <option value="Six Lakes Country Club">Six Lakes Country Club</option>
+            
+                <option value="Skyview Golf & Country Club">Skyview Golf & Country Club</option>
+            
+                <option value="Solutia Golf Course">Solutia Golf Course</option>
+            
+                <option value="Sombrero Country Club">Sombrero Country Club</option>
+            
+                <option value="Sorrento Par-3 Golf Course">Sorrento Par-3 Golf Course</option>
+            
+                <option value="South Seas Plantation Golf Links">South Seas Plantation Golf Links</option>
+            
+                <option value="Southern Dunes Golf & Country Club">Southern Dunes Golf & Country Club</option>
+            
+                <option value="Southern Hills Planation Club">Southern Hills Planation Club</option>
+            
+                <option value="Southern Oaks Golf Club">Southern Oaks Golf Club</option>
+            
+                <option value="Southport Springs Golf Club">Southport Springs Golf Club</option>
+            
+                <option value="Southridge Golf Course">Southridge Golf Course</option>
+            
+                <option value="Southwinds Golf Course">Southwinds Golf Course</option>
+            
+                <option value="Southwood Golf Club">Southwood Golf Club</option>
+            
+                <option value="Spanish Lakes Fairways">Spanish Lakes Fairways</option>
+            
+                <option value="Spanish Lakes Golf Village">Spanish Lakes Golf Village</option>
+            
+                <option value="Spanish Wells Country Club">Spanish Wells Country Club</option>
+            
+                <option value="Spessard Holland Golf Course">Spessard Holland Golf Course</option>
+            
+                <option value="Spring Hill Golf Course">Spring Hill Golf Course</option>
+            
+                <option value="Spruce Creek Country Club">Spruce Creek Country Club</option>
+            
+                <option value="St Lucie Trail Golf Club">St Lucie Trail Golf Club</option>
+            
+                <option value="St. Andrews Club">St. Andrews Club</option>
+            
+                <option value="St. Andrews Country Club">St. Andrews Country Club</option>
+            
+                <option value="St. Andrews South Golf Club">St. Andrews South Golf Club</option>
+            
+                <option value="St. Augustine Shores Golf Club">St. Augustine Shores Golf Club</option>
+            
+                <option value="St. Johns Golf & Country Club">St. Johns Golf & Country Club</option>
+            
+                <option value="St. Johns Golf Course">St. Johns Golf Course</option>
+            
+                <option value="St. Josephs Bay Country Club">St. Josephs Bay Country Club</option>
+            
+                <option value="St. Petersburg Country Club">St. Petersburg Country Club</option>
+            
+                <option value="Starke Country Club">Starke Country Club</option>
+            
+                <option value="Stillwater Golf and Country Club">Stillwater Golf and Country Club</option>
+            
+                <option value="Stone Creek Golf Club">Stone Creek Golf Club</option>
+            
+                <option value="Stonebridge Country Club">Stonebridge Country Club</option>
+            
+                <option value="Stonebridge Golf & Country Club">Stonebridge Golf & Country Club</option>
+            
+                <option value="Stonebrook Golf Course">Stonebrook Golf Course</option>
+            
+                <option value="Stonecrest Country Club">Stonecrest Country Club</option>
+            
+                <option value="StoneGate Golf Club At Solivita">StoneGate Golf Club At Solivita</option>
+            
+                <option value="Stoneybrook Golf & Country Club">Stoneybrook Golf & Country Club</option>
+            
+                <option value="Stoneybrook West Golf Club">Stoneybrook West Golf Club</option>
+            
+                <option value="Streamsong Resort - Black">Streamsong Resort - Black</option>
+            
+                <option value="Streamsong Resort - Blue">Streamsong Resort - Blue</option>
+            
+                <option value="Streamsong Resort - Red">Streamsong Resort - Red</option>
+            
+                <option value="Streamsong Resort - The Chain">Streamsong Resort - The Chain</option>
+            
+                <option value="Sugar Mill Country Club">Sugar Mill Country Club</option>
+            
+                <option value="Sugarloaf Mountain Golf and Town Club">Sugarloaf Mountain Golf and Town Club</option>
+            
+                <option value="Sugarmill Woods Country Club">Sugarmill Woods Country Club</option>
+            
+                <option value="Summer Glen Country Club">Summer Glen Country Club</option>
+            
+                <option value="Summerfield Crossings Golf Club">Summerfield Crossings Golf Club</option>
+            
+                <option value="Summertree Golf Course">Summertree Golf Course</option>
+            
+                <option value="Summit View Golf Club">Summit View Golf Club</option>
+            
+                <option value="Sun 'N Lake Golf Club - Deer Run Course ">Sun 'N Lake Golf Club - Deer Run Course </option>
+            
+                <option value="Sun 'N Lake Golf Club - Turtle Run Course ">Sun 'N Lake Golf Club - Turtle Run Course </option>
+            
+                <option value="Sun Air Lodge & Golf Course">Sun Air Lodge & Golf Course</option>
+            
+                <option value="Sun City Center South Course">Sun City Center South Course</option>
+            
+                <option value="Sunny Hills Golf Club">Sunny Hills Golf Club</option>
+            
+                <option value="Sunnybreeze Palms Golf Course">Sunnybreeze Palms Golf Course</option>
+            
+                <option value="Sunrise Country Club">Sunrise Country Club</option>
+            
+                <option value="Sunrise Golf Club">Sunrise Golf Club</option>
+            
+                <option value="Sunrise Lakes Phase 3 Golf Course">Sunrise Lakes Phase 3 Golf Course</option>
+            
+                <option value="Sunset Golf Club">Sunset Golf Club</option>
+            
+                <option value="Suntree Country Club">Suntree Country Club</option>
+            
+                <option value="Suwannee Country Club">Suwannee Country Club</option>
+            
+                <option value="Suwannee River Valley Country Club">Suwannee River Valley Country Club</option>
+            
+                <option value="Sweetwater Country Club">Sweetwater Country Club</option>
+            
+                <option value="Sweetwater Golf & Tennis Club">Sweetwater Golf & Tennis Club</option>
+            
+                <option value="Swiss Fairways">Swiss Fairways</option>
+            
+                <option value="Tampa Bay Golf & Country Club">Tampa Bay Golf & Country Club</option>
+            
+                <option value="Tampa Palms Golf & Country Club">Tampa Palms Golf & Country Club</option>
+            
+                <option value="Tanglewood Golf & Country Club">Tanglewood Golf & Country Club</option>
+            
+                <option value="Tara Golf & Country Club">Tara Golf & Country Club</option>
+            
+                <option value="Tarpon Springs Golf Course">Tarpon Springs Golf Course</option>
+            
+                <option value="Tarpon Woods">Tarpon Woods</option>
+            
+                <option value="Tatum Ridge Golf Links">Tatum Ridge Golf Links</option>
+            
+                <option value="Temple Terrace Golf & Country Club">Temple Terrace Golf & Country Club</option>
+            
+                <option value="Tequesta Country Club">Tequesta Country Club</option>
+            
+                <option value="Terra Ceia Bay Golf & Tennis Club">Terra Ceia Bay Golf & Tennis Club</option>
+            
+                <option value="Terra Verde Country Club">Terra Verde Country Club</option>
+            
+                <option value="Terrys Par 3">Terrys Par 3</option>
+            
+                <option value="The Biltmore">The Biltmore</option>
+            
+                <option value="The Bluffs Golf Course">The Bluffs Golf Course</option>
+            
+                <option value="The Breakers">The Breakers</option>
+            
+                <option value="The Breakers Palm Beach">The Breakers Palm Beach</option>
+            
+                <option value="The Bridges at Springtree Golf Club">The Bridges at Springtree Golf Club</option>
+            
+                <option value="The Cape Club of Palm City">The Cape Club of Palm City</option>
+            
+                <option value="The Claw at USF">The Claw at USF</option>
+            
+                <option value="The Club at Eaglebrooke">The Club at Eaglebrooke</option>
+            
+                <option value="The Club at Emerald Hills">The Club at Emerald Hills</option>
+            
+                <option value="The Club at Gateway">The Club at Gateway</option>
+            
+                <option value="The Club at Grandezza">The Club at Grandezza</option>
+            
+                <option value="The Club at Hidden Creek">The Club at Hidden Creek</option>
+            
+                <option value="The Club at Renaissance">The Club at Renaissance</option>
+            
+                <option value="The Club at Weston Hills">The Club at Weston Hills</option>
+            
+                <option value="The Club at WinstonTrails">The Club at WinstonTrails</option>
+            
+                <option value="The Club Renaissance">The Club Renaissance</option>
+            
+                <option value="The Concession">The Concession</option>
+            
+                <option value="The Country Club at Heathrow">The Country Club at Heathrow</option>
+            
+                <option value="The Country Club at Mirasol">The Country Club at Mirasol</option>
+            
+                <option value="The Country Club of Miami">The Country Club of Miami</option>
+            
+                <option value="The Country Club of Mount Dora">The Country Club of Mount Dora</option>
+            
+                <option value="The Country Club of Winter Haven">The Country Club of Winter Haven</option>
+            
+                <option value="The Course at Westland">The Course at Westland</option>
+            
+                <option value="The Deltona Club">The Deltona Club</option>
+            
+                <option value="The Dunedin Golf Club">The Dunedin Golf Club</option>
+            
+                <option value="The Dunes Golf & Tennis Club">The Dunes Golf & Tennis Club</option>
+            
+                <option value="The Dunes Golf Club at Seville">The Dunes Golf Club at Seville</option>
+            
+                <option value="The Evergreen Club">The Evergreen Club</option>
+            
+                <option value="The Falls Country Club">The Falls Country Club</option>
+            
+                <option value="The Florida Club">The Florida Club</option>
+            
+                <option value="The Golden Bear Club at Keenes Pointe">The Golden Bear Club at Keenes Pointe</option>
+            
+                <option value="The Golf Club at South Hampton">The Golf Club at South Hampton</option>
+            
+                <option value="The Golf Club of Amelia Island">The Golf Club of Amelia Island</option>
+            
+                <option value="The Golf Club of Jupiter">The Golf Club of Jupiter</option>
+            
+                <option value="The Golf Club of Quincy">The Golf Club of Quincy</option>
+            
+                <option value="The Golf Garden">The Golf Garden</option>
+            
+                <option value="The Greens of Manatee">The Greens of Manatee</option>
+            
+                <option value="The Habitat at Valkaria">The Habitat at Valkaria</option>
+            
+                <option value="The Hamptons Golf Club">The Hamptons Golf Club</option>
+            
+                <option value="The Hideaway Country Club">The Hideaway Country Club</option>
+            
+                <option value="The Legacy Golf & Tennis Club">The Legacy Golf & Tennis Club</option>
+            
+                <option value="The Links at 434">The Links at 434</option>
+            
+                <option value="The Links of Spruce Creek">The Links of Spruce Creek</option>
+            
+                <option value="The Little Club">The Little Club</option>
+            
+                <option value="The Little Club">The Little Club</option>
+            
+                <option value="The Majors Golf Club">The Majors Golf Club</option>
+            
+                <option value="The Medalist Golf Club">The Medalist Golf Club</option>
+            
+                <option value="The Monterey Club">The Monterey Club</option>
+            
+                <option value="The Moors Golf & Lodging">The Moors Golf & Lodging</option>
+            
+                <option value="The Oak Harbor Club">The Oak Harbor Club</option>
+            
+                <option value="The Orange Citry Golf Club">The Orange Citry Golf Club</option>
+            
+                <option value="The Plantation Golf & Country Club">The Plantation Golf & Country Club</option>
+            
+                <option value="The Preserve Golf Club">The Preserve Golf Club</option>
+            
+                <option value="The Reservation">The Reservation</option>
+            
+                <option value="The Resort at Longboat Key Club">The Resort at Longboat Key Club</option>
+            
+                <option value="The Ritz-Carlton Golf Club, Grande Lakes">The Ritz-Carlton Golf Club, Grande Lakes</option>
+            
+                <option value="The River Club">The River Club</option>
+            
+                <option value="The Sanctuary at Wulfert Point">The Sanctuary at Wulfert Point</option>
+            
+                <option value="The Strand">The Strand</option>
+            
+                <option value="The Vinoy Renaissance St. Petersburg Resort & Golf Club">The Vinoy Renaissance St. Petersburg Resort & Golf Club</option>
+            
+                <option value="The Wanderers Club">The Wanderers Club</option>
+            
+                <option value="The Yacht & Country Club">The Yacht & Country Club</option>
+            
+                <option value="The Yards">The Yards</option>
+            
+                <option value="Tiburón Golf Club">Tiburón Golf Club</option>
+            
+                <option value="Tides Golf Club">Tides Golf Club</option>
+            
+                <option value="Tierra Del Sol">Tierra Del Sol</option>
+            
+                <option value="Tiger Point Golf & Country Club">Tiger Point Golf & Country Club</option>
+            
+                <option value="Timacuan Golf & Country Club">Timacuan Golf & Country Club</option>
+            
+                <option value="Timber Creek Golf Course">Timber Creek Golf Course</option>
+            
+                <option value="Timber Oaks Golf Course">Timber Oaks Golf Course</option>
+            
+                <option value="Timber Pines">Timber Pines</option>
+            
+                <option value="Timuquana Country Club">Timuquana Country Club</option>
+            
+                <option value="Tomoka Oaks Golf & Country Club">Tomoka Oaks Golf & Country Club</option>
+            
+                <option value="Torrey Oaks Golf Course">Torrey Oaks Golf Course</option>
+            
+                <option value="Town & Country RV Resort & Golf Club">Town & Country RV Resort & Golf Club</option>
+            
+                <option value="TPC at Eagle Trace">TPC at Eagle Trace</option>
+            
+                <option value="TPC at Lake Nona">TPC at Lake Nona</option>
+            
+                <option value="TPC at Prestancia">TPC at Prestancia</option>
+            
+                <option value="TPC Sawgrass ">TPC Sawgrass </option>
+            
+                <option value="TPC Tampa Bay">TPC Tampa Bay</option>
+            
+                <option value="TPC Treviso Bay">TPC Treviso Bay</option>
+            
+                <option value="Tradition Golf Club">Tradition Golf Club</option>
+            
+                <option value="Tranquilo Golf Club at Four Seasons Resort">Tranquilo Golf Club at Four Seasons Resort</option>
+            
+                <option value="Treasure Island Golf, Tennis & Recreation Center">Treasure Island Golf, Tennis & Recreation Center</option>
+            
+                <option value="Trilogy Golf Club at Ocala Preserve">Trilogy Golf Club at Ocala Preserve</option>
+            
+                <option value="Trump International Golf Club">Trump International Golf Club</option>
+            
+                <option value="Trump National Doral - Blue Monster">Trump National Doral - Blue Monster</option>
+            
+                <option value="Trump National Doral - Golden Palm">Trump National Doral - Golden Palm</option>
+            
+                <option value="Trump National Doral - Red Tiger">Trump National Doral - Red Tiger</option>
+            
+                <option value="Trump National Doral - Silver Fox">Trump National Doral - Silver Fox</option>
+            
+                <option value="Turnberry Isle Resort">Turnberry Isle Resort</option>
+            
+                <option value="Turnbull Bay Golf Course">Turnbull Bay Golf Course</option>
+            
+                <option value="Turtle Creek Club">Turtle Creek Club</option>
+            
+                <option value="Turtle Creek Golf Club">Turtle Creek Golf Club</option>
+            
+                <option value="Tuscawilla Country Club">Tuscawilla Country Club</option>
+            
+                <option value="Twin Brooks Golf Course">Twin Brooks Golf Course</option>
+            
+                <option value="Twin Isles Country Club">Twin Isles Country Club</option>
+            
+                <option value="Twin Lakes Reserve & Golf Club">Twin Lakes Reserve & Golf Club</option>
+            
+                <option value="Twin Rivers Golf Club">Twin Rivers Golf Club</option>
+            
+                <option value="TwinEagles Golf & Country Club">TwinEagles Golf & Country Club</option>
+            
+                <option value="Twisted Oaks Golf Club">Twisted Oaks Golf Club</option>
+            
+                <option value="University Park Country Club">University Park Country Club</option>
+            
+                <option value="Valencia Golf Course">Valencia Golf Course</option>
+            
+                <option value="Valley Oaks Golf Course">Valley Oaks Golf Course</option>
+            
+                <option value="Valleybrook Golf Club">Valleybrook Golf Club</option>
+            
+                <option value="Vanderbilt Country Club">Vanderbilt Country Club</option>
+            
+                <option value="Venetian Golf Club">Venetian Golf Club</option>
+            
+                <option value="Venice East Golf Club">Venice East Golf Club</option>
+            
+                <option value="Venice Golf & Country Club">Venice Golf & Country Club</option>
+            
+                <option value="Ventura Country Club">Ventura Country Club</option>
+            
+                <option value="Verandah Golf Club">Verandah Golf Club</option>
+            
+                <option value="Vero Beach Country Club">Vero Beach Country Club</option>
+            
+                <option value="Victoria Estates">Victoria Estates</option>
+            
+                <option value="Victoria Hills Golf Club">Victoria Hills Golf Club</option>
+            
+                <option value="Viera East Golf Club">Viera East Golf Club</option>
+            
+                <option value="Villa Del Ray Golf Course">Villa Del Ray Golf Course</option>
+            
+                <option value="Village Golf Course">Village Golf Course</option>
+            
+                <option value="Village Green Golf Club">Village Green Golf Club</option>
+            
+                <option value="Village Green Golf Course">Village Green Golf Course</option>
+            
+                <option value="Village Green Golf Course">Village Green Golf Course</option>
+            
+                <option value="Villages at Country Creek">Villages at Country Creek</option>
+            
+                <option value="Vines Golf & Country Club">Vines Golf & Country Club</option>
+            
+                <option value="Vineyards of Naples">Vineyards of Naples</option>
+            
+                <option value="Vista Plantation Golf Course">Vista Plantation Golf Course</option>
+            
+                <option value="Vista Royale Golf & Country Club">Vista Royale Golf & Country Club</option>
+            
+                <option value="Walden Lake Golf & Country Club">Walden Lake Golf & Country Club</option>
+            
+                <option value="Walden Lake Golf & Country Club - Lakes">Walden Lake Golf & Country Club - Lakes</option>
+            
+                <option value="Waldorf Astoria Golf Club">Waldorf Astoria Golf Club</option>
+            
+                <option value="Walk-N-Sticks">Walk-N-Sticks</option>
+            
+                <option value="Walt Disney World Golf Complex - Lake Buena Vista">Walt Disney World Golf Complex - Lake Buena Vista</option>
+            
+                <option value="Walt Disney World Golf Complex - Magnolia">Walt Disney World Golf Complex - Magnolia</option>
+            
+                <option value="Walt Disney World Golf Complex - Palm">Walt Disney World Golf Complex - Palm</option>
+            
+                <option value="Water Oak Country Club Estates">Water Oak Country Club Estates</option>
+            
+                <option value="Waterford Golf Club">Waterford Golf Club</option>
+            
+                <option value="Waterlefe Golf & River Club">Waterlefe Golf & River Club</option>
+            
+                <option value="Wedgefield Golf and Country Club">Wedgefield Golf and Country Club</option>
+            
+                <option value="Wedgewood Country Club">Wedgewood Country Club</option>
+            
+                <option value="Wedgewood Golf Course">Wedgewood Golf Course</option>
+            
+                <option value="Wellington National Golf Club">Wellington National Golf Club</option>
+            
+                <option value="Wentworth Golf Club">Wentworth Golf Club</option>
+            
+                <option value="West Bay Golf Club">West Bay Golf Club</option>
+            
+                <option value="West End Golf Course">West End Golf Course</option>
+            
+                <option value="West Meadows Golf Course">West Meadows Golf Course</option>
+            
+                <option value="West Orange Country Club">West Orange Country Club</option>
+            
+                <option value="West Palm Beach Golf Club">West Palm Beach Golf Club</option>
+            
+                <option value="Westchase Golf Club">Westchase Golf Club</option>
+            
+                <option value="Westchester Golf & Country Club">Westchester Golf & Country Club</option>
+            
+                <option value="Westminster Golf Club">Westminster Golf Club</option>
+            
+                <option value="Weston Hills Country Club - Players">Weston Hills Country Club - Players</option>
+            
+                <option value="Westview Country Club">Westview Country Club</option>
+            
+                <option value="Whiskey Creek Country Club">Whiskey Creek Country Club</option>
+            
+                <option value="Whispering Oaks Golf & Country Club">Whispering Oaks Golf & Country Club</option>
+            
+                <option value="Wildcat Run Golf and Country Club">Wildcat Run Golf and Country Club</option>
+            
+                <option value="Wilderness Country Club">Wilderness Country Club</option>
+            
+                <option value="Wildflower Country Club">Wildflower Country Club</option>
+            
+                <option value="Wildwood Country Club">Wildwood Country Club</option>
+            
+                <option value="Williams Island Country Club">Williams Island Country Club</option>
+            
+                <option value="Williston Highlands Golf & Country Club">Williston Highlands Golf & Country Club</option>
+            
+                <option value="Willoughby Golf Club">Willoughby Golf Club</option>
+            
+                <option value="Willowbrook Golf Course">Willowbrook Golf Course</option>
+            
+                <option value="Windermere Country Club">Windermere Country Club</option>
+            
+                <option value="Windsor Club">Windsor Club</option>
+            
+                <option value="Windsor Parke Golf Club">Windsor Parke Golf Club</option>
+            
+                <option value="Windstar on Naples Bay">Windstar on Naples Bay</option>
+            
+                <option value="Windswept Dunes Golf Club">Windswept Dunes Golf Club</option>
+            
+                <option value="Windy Harbor Golf Club">Windy Harbor Golf Club</option>
+            
+                <option value="Winter Park Country Club">Winter Park Country Club</option>
+            
+                <option value="Winter Pines Golf Course">Winter Pines Golf Course</option>
+            
+                <option value="Winter Springs Golf Club">Winter Springs Golf Club</option>
+            
+                <option value="Woodfield Country Club">Woodfield Country Club</option>
+            
+                <option value="Woodhaven Golf Center">Woodhaven Golf Center</option>
+            
+                <option value="Woodlands Country Club">Woodlands Country Club</option>
+            
+                <option value="Woodlands Golf Course">Woodlands Golf Course</option>
+            
+                <option value="Woodmont Country Club - Cypress">Woodmont Country Club - Cypress</option>
+            
+                <option value="Woodmont Country Club - Pines">Woodmont Country Club - Pines</option>
+            
+                <option value="World Golf Village - The King & Bear Golf Course">World Golf Village - The King & Bear Golf Course</option>
+            
+                <option value="World Golf Village - The Slammer & Squire">World Golf Village - The Slammer & Squire</option>
+            
+                <option value="Worthington Country Club">Worthington Country Club</option>
+            
+                <option value="Wycliffe Country Club - East">Wycliffe Country Club - East</option>
+            
+                <option value="Wycliffe Country Club - West">Wycliffe Country Club - West</option>
+            
+                <option value="Wyndemere Country Club">Wyndemere Country Club</option>
+            
+                <option value="Wyndmoor Community Golf Course">Wyndmoor Community Golf Course</option>
+            
+                <option value="Zellwood Station & Country Club">Zellwood Station & Country Club</option>
+            
+                <option value="Zephyrhills City Golf Course">Zephyrhills City Golf Course</option>
+      </select>
+
+      <label for="matchAmount">Bet Amount:</label>
+      <div class="slider-container">
+        <input type="range" id="matchAmount" name="matchAmount" min="0" max="1000" step="1" value="0">
+        <input type="text" id="matchAmountDisplay" name="matchAmountDisplay" value="$0" readonly>
+      </div>
+
+      <button type="submit">Create Game</button>
+    </form>
+  </div>
+
+  <script>
+    const matchAmountSlider = document.getElementById('matchAmount');
+    const matchAmountDisplay = document.getElementById('matchAmountDisplay');
+
+    matchAmountSlider.addEventListener('input', () => {
+      const matchAmountValue = matchAmountSlider.value;
+      matchAmountDisplay.value = `$${matchAmountValue}`;
+    });
+  </script>
+</body>
+</html>

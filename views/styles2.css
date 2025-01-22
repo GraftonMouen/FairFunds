@@ -1,0 +1,147 @@
+/* styles2.css */
+
+/* Add the following styles for the navbar */
+.navbar {
+    overflow: auto;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items along the container with space in between */
+    padding: 10px; /* Add padding for better spacing */
+    z-index: 1000; /* Ensure the navbar is above other elements */
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add this style for the user info */
+.user-info {
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.user-info p {
+    margin: 0;
+}
+
+.user-info img {
+    max-width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* Add this style for small text */
+.small-text {
+    font-size: 12px;
+}
+
+/* Additional styles for the rest of your page */
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: white;
+    background: url('/views/images/fairwayfunds.jpg') center/cover fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    margin-top: 60px; /* Adjusted margin to accommodate the navbar */
+}
+
+.title {
+    font-size: 2em;
+    margin: 50px 0 20px;
+    max-height: 20px;
+    color: whitesmoke !important;
+    position: relative;
+    z-index: 1;
+}
+
+/* Add your other styles for different sections of your page */
+
+
+.login-container,
+.create-game-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    width: 250px;
+}
+
+.login-container h2,
+.create-game-container h1 {
+    color: green;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: black !important;
+}
+
+input,
+select,
+textarea {
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: darkgrey !important;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Additional styles for the slider and dollar sign */
+.slider-container {
+    display: flex;
+    align-items: center;
+}
+
+input[type="range"] {
+    margin-top: 8px;
+}
+
+.dollar-sign {
+    margin-left: 4px;
+    font-weight: bold;
+    color: darkgrey;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: darkgrey;
+    font-weight: bold;
+}

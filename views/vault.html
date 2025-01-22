@@ -1,0 +1,68 @@
+<!-- vault.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Wallet</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Log in</a>
+        <a href="createGame.html">Create Game</a>
+        <a href="gameList.html">Matchplay</a>
+        <a href="vault.html">Vault</a>
+        <a href="profile.html">Profile</a>
+        <a href="signup.html">Sign Up</a>
+    </div>
+
+  <h1 class="title">Wallet</h1>
+  <div class="wallet-container">
+    <p>Your current balance: $<span id="balance">0.00</span></p>
+    <form id="depositForm">
+      <label for="amount">Deposit Amount:</label>
+      <input type="number" id="amount" name="amount" required>
+      <button type="button" onclick="deposit()">Deposit</button>
+    </form>
+  </div>
+
+  <script>
+    function deposit() {
+      const amountInput = document.getElementById('amount');
+      const depositAmount = parseFloat(amountInput.value);
+
+      if (!isNaN(depositAmount) && depositAmount > 0) {
+        // Send an AJAX request to the server to update the user's balance
+        // Example: You can use fetch or another library for this purpose
+        fetch('/deposit', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ amount: depositAmount }),
+        })
+        .then(response => response.json())
+        .then(data => {
+          if (data.success) {
+            // Update the balance displayed on the page
+            const balanceElement = document.getElementById('balance');
+            balanceElement.textContent = (parseFloat(balanceElement.textContent) + depositAmount).toFixed(2);
+
+            // Optionally, you can provide feedback to the user
+            alert('Deposit successful!');
+          } else {
+            alert('Deposit failed. Please try again.');
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          alert('An error occurred. Please try again later.');
+        });
+      } else {
+        alert('Please enter a valid deposit amount.');
+      }
+    }
+  </script>
+</body>
+</html>
